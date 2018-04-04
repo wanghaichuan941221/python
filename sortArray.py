@@ -52,8 +52,22 @@ def quick_sort(a,lo,hi):
         quick_sort(a,mid+1,mid+1)
         return a
 
+def bubble_sort(a):
+    i=0
+    while i<len(a)-1:
+        j=i+1
+        while j<len(a):
+            if a[i]>a[j]:
+                a[i],a[j]=swap(a[i],a[j])
+            j+=1
+        i+=1
+    return a
+
+
+
 a=[1,4,3,9,6,7]
-result = merge_sort(a)
-quick_sort(a,0,len(a)-1)
+# result = merge_sort(a)
+result = bubble_sort(a)
+# quick_sort(a,0,len(a)-1)
 for i in result:
     print(i)
