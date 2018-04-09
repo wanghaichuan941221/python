@@ -6,18 +6,17 @@ from scipy.ndimage.filters import gaussian_filter
 
 
 # imtensity
-def sobel_filter(img):
+def gradient(img):
     h_x=np.array([[1,0,-1],[2,0,-2],[1,0,-1]],dtype=np.float64)
     h_y=h_x.transpose()
     gx=signal.convolve2d(img,h_x)
     gy=signal.convolve2d(img,h_y)
-    # g=np.sqrt(gx**2+gy**2)
-    return gx,gy
+    return np.sqrt(gx*gx+gy*gy),np.arctan(gy,gx)*180/np.pi
 
 def suppression(det,phase):
     gmax=np.zeros(det.shape)
-    for i in xrange(gmax.shape[0]):
-        for j in xrange(gmax.shape[1]):
+    for i in range(gmax.shape[0]):
+        for j in range(gmax.shape[1]):
             if(phase[i][j]<0):
                 phase[i][j]+=360
             if((j+1)<gmax.shape[1] and (j-1)>=0) and ((i+1) < gmax.shape[0]) and ((i-1) >= 0):
@@ -44,10 +43,10 @@ def suppression(det,phase):
 
 def thresholding(img):
     thres=np.zeros(img.shape)
-    nmax = max(img)
+    nmax = np.max(img)
     lo,hi=0.1*nmax,0.8*nmax
-    for i in xrange(img.shape[0]):
-        for j in xrange(img.shape[1]):
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
             if img[i][j] >= hi:
                 thres[i][j]=1.0
             elif img[i][j] >= lo:
@@ -57,7 +56,12 @@ def thresholding(img):
 img = cv2.imread('jpg/apple.jpg')
 img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 img_gaussian= gaussian_filter(img_gray,3)
-gx,gy= sobel_filter(img_gaussian)
-plt.subplot(2,1,1),plt.imshow(img_gray,cmap='gray')
-plt.subplot(2,1,2),plt.imshow(np.sqrt(gx**2+gy**2),cmap='gray')
+img_gradient,theta=gradient(img_gaussian)
+img_sup=suppression(img_gradient,theta)
+img_thres=thresholding(img_sup)
+
+img_canny = cv2.Canny(img_gaussian,26,204)
+plt.subplot(2,1,1),plt.imshow(img_canny,cmap='gray')
+plt.subplot(2,1,2),plt.imshow(img_thres,cmap='gray')
+
 plt.show()
