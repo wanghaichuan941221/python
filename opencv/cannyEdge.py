@@ -13,6 +13,7 @@ def gradient(img):
     gy=signal.convolve2d(img,h_y)
     return np.sqrt(gx*gx+gy*gy),np.arctan(gy,gx)*180/np.pi
 
+# non maximum suppression
 def suppression(det,phase):
     gmax=np.zeros(det.shape)
     for i in range(gmax.shape[0]):
@@ -40,7 +41,7 @@ def suppression(det,phase):
 
 
 
-
+# thresholding the image
 def thresholding(img):
     thres=np.zeros(img.shape)
     nmax = np.max(img)
