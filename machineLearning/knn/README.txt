@@ -1,4 +1,4 @@
-# ${1:K nearest neighbors}
+# K nearest neighbors
 K nearest neighbors with sklearn using iris data
 
 ## Usage
