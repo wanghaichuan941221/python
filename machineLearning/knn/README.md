@@ -1,4 +1,4 @@
-# ${1:K nearest neighbors}
+# K nearest neighbors
 
 ## Usage
 python3 knn.py
