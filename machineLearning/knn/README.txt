@@ -1,10 +1,10 @@
-# K nearest neighbors
+## K nearest neighbors
 K nearest neighbors with sklearn using iris data
 
-## Usage
+### Usage
 python3 knn.py
 
-## Contributing
+### Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
