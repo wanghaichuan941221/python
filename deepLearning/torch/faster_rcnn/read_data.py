@@ -51,20 +51,20 @@ class PennFudanDataset(torch.utils.data.Dataset):
         boxes = torch.as_tensor(boxes, dtype=torch.float32)
         # there is only one class
         labels = torch.ones((num_objs,), dtype=torch.int64)
-        masks = torch.as_tensor(masks, dtype=torch.uint8)
+        # masks = torch.as_tensor(masks, dtype=torch.uint8)
  
         image_id = torch.tensor([idx])
         area = (boxes[:, 3] - boxes[:, 1]) * (boxes[:, 2] - boxes[:, 0])
         # suppose all instances are not crowd
-        iscrowd = torch.zeros((num_objs,), dtype=torch.int64)
+        # iscrowd = torch.zeros((num_objs,), dtype=torch.int64)
  
         target = {}
         target["boxes"] = boxes
         target["labels"] = labels
-        target["masks"] = masks
+        # target["masks"] = masks
         target["image_id"] = image_id
         target["area"] = area
-        target["iscrowd"] = iscrowd
+        # target["iscrowd"] = iscrowd
  
         if self.transforms is not None:
             img, target = self.transforms(img, target)
@@ -99,11 +99,11 @@ dataset_test = torch.utils.data.Subset(dataset_test, indices[-50:])
 
 
 data_loader = torch.utils.data.DataLoader(
-    dataset, batch_size=2, shuffle=True, num_workers=4,
+    dataset, batch_size=2, shuffle=True, num_workers=1,
     collate_fn=utils.collate_fn)
  
 data_loader_test = torch.utils.data.DataLoader(
-    dataset_test, batch_size=1, shuffle=False, num_workers=4,
+    dataset_test, batch_size=1, shuffle=False, num_workers=1,
     collate_fn=utils.collate_fn)
  
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
