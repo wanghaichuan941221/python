@@ -11,6 +11,13 @@ from engine import train_one_epoch, evaluate
 import torchvision
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
  
+import torchvision
+from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
+from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
+ 
+      
+
+
 class PennFudanDataset(torch.utils.data.Dataset):
     def __init__(self, root, transforms=None):
         self.root = root
@@ -51,20 +58,20 @@ class PennFudanDataset(torch.utils.data.Dataset):
         boxes = torch.as_tensor(boxes, dtype=torch.float32)
         # there is only one class
         labels = torch.ones((num_objs,), dtype=torch.int64)
-        # masks = torch.as_tensor(masks, dtype=torch.uint8)
+        masks = torch.as_tensor(masks, dtype=torch.uint8)
  
         image_id = torch.tensor([idx])
         area = (boxes[:, 3] - boxes[:, 1]) * (boxes[:, 2] - boxes[:, 0])
         # suppose all instances are not crowd
-        # iscrowd = torch.zeros((num_objs,), dtype=torch.int64)
+        iscrowd = torch.zeros((num_objs,), dtype=torch.int64)
  
         target = {}
         target["boxes"] = boxes
         target["labels"] = labels
-        # target["masks"] = masks
+        target["masks"] = masks
         target["image_id"] = image_id
         target["area"] = area
-        # target["iscrowd"] = iscrowd
+        target["iscrowd"] = iscrowd
  
         if self.transforms is not None:
             img, target = self.transforms(img, target)
@@ -77,6 +84,26 @@ class PennFudanDataset(torch.utils.data.Dataset):
 
 # dataset = PennFudanDataset("PennFudanPed")
 
+def get_instance_segmentation_model(num_classes):
+    # load an instance segmentation model pre-trained on COCO
+    model = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True)
+ 
+    # get the number of input features for the classifier
+    in_features = model.roi_heads.box_predictor.cls_score.in_features
+ 
+    # replace the pre-trained head with a new one
+    model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
+ 
+    # now get the number of input features for the mask classifier
+    in_features_mask = model.roi_heads.mask_predictor.conv5_mask.in_channels
+    hidden_layer = 256
+ 
+    # and replace the mask predictor with a new one
+    model.roi_heads.mask_predictor = MaskRCNNPredictor(in_features_mask,
+                                                       hidden_layer,
+                                                       num_classes)
+ 
+    return model
 
 def get_transform(train):
     transforms = []
@@ -117,6 +144,8 @@ in_features = model.roi_heads.box_predictor.cls_score.in_features
 
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
 
+
+model = get_instance_segmentation_model(num_classes)
 model.to(device)
 
 # construct an optimizer
