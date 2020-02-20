@@ -126,11 +126,11 @@ dataset_test = torch.utils.data.Subset(dataset_test, indices[-50:])
 
 
 data_loader = torch.utils.data.DataLoader(
-    dataset, batch_size=2, shuffle=True, num_workers=1,
+    dataset, batch_size=2, shuffle=True, num_workers=8,
     collate_fn=utils.collate_fn)
  
 data_loader_test = torch.utils.data.DataLoader(
-    dataset_test, batch_size=1, shuffle=False, num_workers=1,
+    dataset_test, batch_size=1, shuffle=False, num_workers=8,
     collate_fn=utils.collate_fn)
  
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
