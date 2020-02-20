@@ -16,7 +16,7 @@ from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-index = 199
+# index = 199
 
 
 # img = Image.open("data/test_image/css ("+str(index)+").bmp")
@@ -67,7 +67,7 @@ class TsignDet(torch.utils.data.Dataset):
         img = Image.open(img_path).convert("RGB")
         # note that we haven't converted the mask to RGB,
         # because each color corresponds to a different instance with 0 being background
-        # mask = Image.open(mask_path)
+        # mask = None#Image.open(mask_path)
         with open(mask_path) as f: 
             lines = f.read().split("\n")
 
@@ -145,7 +145,7 @@ device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
 
-num_classes = 2
+num_classes = 3
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
