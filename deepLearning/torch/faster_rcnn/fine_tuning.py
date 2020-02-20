@@ -165,7 +165,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer,
                                                gamma=0.1)
  
 # training
-num_epochs = 1
+num_epochs = 10
 
 for epoch in range(num_epochs):
     # train for one epoch, printing every 10 iterations
@@ -180,4 +180,29 @@ for epoch in range(num_epochs):
 
 torch.save(model.state_dict(),"model_traffic")
 
-# model.load_state_dict(torch.load("model"))
+# model.load_state_dict(torch.load("model_traffic"))
+
+# img, _ = dataset_test[0]
+ 
+# # put the model in evaluation mode
+# model.eval()
+# with torch.no_grad():
+#     prediction = model([img.to(device)])
+
+# res1 = Image.fromarray(img.mul(255).permute(1, 2, 0).byte().numpy())
+ 
+# res2 = prediction[0]['boxes'].cpu().numpy()[0]
+
+# # Create figure and axes
+# fig,ax = plt.subplots(1)
+
+# # Display the image
+# ax.imshow(res1)
+
+# # Create a Rectangle patch
+# rect = patches.Rectangle((res2[0],res2[1]),res2[2]-res2[0],res2[3]-res2[1],linewidth=1,edgecolor='r',facecolor='none')
+
+# # Add the patch to the Axes
+# ax.add_patch(rect)
+
+# plt.show()
