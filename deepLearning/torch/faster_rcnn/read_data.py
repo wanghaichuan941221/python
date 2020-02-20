@@ -144,8 +144,8 @@ in_features = model.roi_heads.box_predictor.cls_score.in_features
 
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
 
+# model = get_instance_segmentation_model(num_classes)
 
-model = get_instance_segmentation_model(num_classes)
 model.to(device)
 
 # construct an optimizer
@@ -159,7 +159,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer,
                                                gamma=0.1)
  
 # training
-num_epochs = 2
+num_epochs = 10
 
 for epoch in range(num_epochs):
     # train for one epoch, printing every 10 iterations
@@ -170,3 +170,8 @@ for epoch in range(num_epochs):
  
     # evaluate on the test dataset
     evaluate(model, data_loader_test, device=device)
+
+
+torch.save(model.state_dict,"model")
+
+# model.load_state_dict(torch.load("model"))
