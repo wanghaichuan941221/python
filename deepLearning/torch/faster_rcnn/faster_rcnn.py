@@ -7,9 +7,16 @@ import random
 import os
 import torch
 
+from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
+from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+
+
+
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True).to(device)  #  加载模型
+
+
 model.eval()  # 设置成评估模式
 
 

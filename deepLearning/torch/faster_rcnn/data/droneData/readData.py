@@ -19,15 +19,23 @@ import os
 #     ax.text(box[0]*640-box[2]*320,box[1]*480-box[3]*240,label_txt[index],fontsize=12)
 # plt.show()
 
-count = 247
-for index1 in range(600):
-    image = cv2.imread("img2/img"+str(index1)+".jpg")
-    text_path = "img2/img"+str(index1)+".txt"
-    if os.path.isfile(text_path):
-        label = np.loadtxt(text_path).reshape(-1,5)
-        if label.shape[0] != 0 and np.shape(image)!=():
-            cv2.imwrite("data/img"+str(count)+".jpg",image)    
-            np.savetxt("label/label"+str(count)+".txt",label,fmt="%.4f")
-            print("data/img"+str(count)+".jpg")
-            count += 1
+# count = 269
+# for index1 in range(600):
+#     image = cv2.imread("img2_distance/img"+str(index1)+".jpg")
+#     text_path = "img2_distance/img"+str(index1)+".txt"
+#     if os.path.isfile(text_path):
+#         label = np.loadtxt(text_path).reshape((-1,5))
+#         if label.shape[0] != 0 and np.shape(image)!=():
+#             cv2.imwrite("data/img"+str(count)+".jpg",image)    
+#             np.savetxt("label/label"+str(count)+".txt",label,fmt="%.4f")
+#             # print("data/img"+str(count)+".jpg")
+#             print(count,label.shape)
+#             count += 1
 
+
+for index in range(1,292):
+    label = np.loadtxt("label/label"+str(index)+".txt")
+    label = label.reshape((-1,5))
+    for index1 in range(label.shape[0]):
+        # print(index)
+        box = label[index1,1:]
