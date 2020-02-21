@@ -56,32 +56,33 @@ class TsignDet(torch.utils.data.Dataset):
         self.root = root
         self.transforms = transforms
         # load all image files, sorting them to ensure that they are aligned
-        self.imgs = list(sorted(os.listdir(os.path.join(root, "css_image"))))
-        self.masks = list(sorted(os.listdir(os.path.join(root, "css_label"))))
+        self.imgs = list(sorted(os.listdir(os.path.join(root, "data"))))
+        self.masks = list(sorted(os.listdir(os.path.join(root, "label"))))
         
  
     def __getitem__(self, idx):
         # load images ad masks
-        img_path = os.path.join(self.root, "css_image","css ("+str(idx+1)+").bmp")
-        mask_path = os.path.join(self.root, "css_label","css ("+str(idx+1)+").txt")
+        img_path = os.path.join(self.root, "data","img"+str(idx+1)+".jpg")
+        mask_path = os.path.join(self.root, "label","label"+str(idx+1)+".txt")
         img = Image.open(img_path).convert("RGB")
         # note that we haven't converted the mask to RGB,
         # because each color corresponds to a different instance with 0 being background
         # mask = None#Image.open(mask_path)
-        with open(mask_path) as f: 
-            lines = f.read().split("\n")
+        # with open(mask_path) as f: 
+        #     lines = f.read().split("\n")
+        # num_objs = int(len(lines)/4)
 
-        num_objs = int(len(lines)/4)
+        labelData = np.loadtxt(mask_path)
+        labelData = labelData.reshape((-1,5))
         boxes = []
         labels = []
-
+        num_objs = labelData.shape[0]
         for i in range(num_objs):
-            box = lines[4*i].split(',')
-            box = list(map(int, box))
-            label = int(lines[4*i+1])
+            # print(labelData)
+            box = labelData[i,1:5]
             # rect = patches.Rectangle((box[0],box[1]),box[4]-box[0],box[5]-box[1],linewidth=1,edgecolor='r',facecolor='none')
-            boxes.append([box[0],box[1],box[4],box[5]]) 
-            labels.append(label)
+            boxes.append([box[0]*640-box[2]*320,box[1]*480-box[3]*240,box[0]*640+box[2]*320,box[1]*480+box[3]*240]) 
+            labels.append(int(labelData[i,0]))
   
         boxes = torch.as_tensor(boxes, dtype=torch.float32)
         # there is only one class
@@ -124,21 +125,23 @@ def get_transform(train):
  
     return T.Compose(transforms)
 
-dataset = TsignDet("data",get_transform(train=True))
-dataset_test = TsignDet('data', get_transform(train=False))
+# dataset = TsignDet("data/droneData/")
 
-torch.manual_seed(1)
+dataset = TsignDet("data/droneData/",get_transform(train=True))
+dataset_test = TsignDet('data/droneData/', get_transform(train=False))
+
+# torch.manual_seed(1)
 indices = torch.randperm(len(dataset)).tolist()
 dataset = torch.utils.data.Subset(dataset, indices[:-50])
 dataset_test = torch.utils.data.Subset(dataset_test, indices[-50:])
 
 
 data_loader = torch.utils.data.DataLoader(
-    dataset, batch_size=2, shuffle=True, num_workers=8,
+    dataset, batch_size=8, shuffle=True, num_workers=8,
     collate_fn=utils.collate_fn)
  
 data_loader_test = torch.utils.data.DataLoader(
-    dataset_test, batch_size=1, shuffle=False, num_workers=8,
+    dataset_test, batch_size=8, shuffle=False, num_workers=8,
     collate_fn=utils.collate_fn)
  
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -165,7 +168,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer,
                                                gamma=0.1)
  
 # training
-num_epochs = 10
+num_epochs = 1
 
 for epoch in range(num_epochs):
     # train for one epoch, printing every 10 iterations
@@ -182,7 +185,7 @@ torch.save(model.state_dict(),"model_traffic")
 
 # model.load_state_dict(torch.load("model_traffic"))
 
-# img, _ = dataset_test[0]
+# img, _ = dataset_test[20]
  
 # # put the model in evaluation mode
 # model.eval()
@@ -191,7 +194,7 @@ torch.save(model.state_dict(),"model_traffic")
 
 # res1 = Image.fromarray(img.mul(255).permute(1, 2, 0).byte().numpy())
  
-# res2 = prediction[0]['boxes'].cpu().numpy()[0]
+# res2 = prediction[0]['boxes'].cpu().numpy()
 
 # # Create figure and axes
 # fig,ax = plt.subplots(1)
@@ -200,9 +203,42 @@ torch.save(model.state_dict(),"model_traffic")
 # ax.imshow(res1)
 
 # # Create a Rectangle patch
-# rect = patches.Rectangle((res2[0],res2[1]),res2[2]-res2[0],res2[3]-res2[1],linewidth=1,edgecolor='r',facecolor='none')
+# for res in res2:
+#     rect = patches.Rectangle((res[0],res[1]),res[2]-res[0],res[3]-res[1],linewidth=1,edgecolor='r',facecolor='none')
 
-# # Add the patch to the Axes
-# ax.add_patch(rect)
+#     # Add the patch to the Axes
+#     ax.add_patch(rect)
 
 # plt.show()
+
+
+# import time
+# start = time.time()
+# for index1 in range(1,20):
+#     img, _ = dataset_test[index1]
+
+#     model.eval()
+#     with torch.no_grad():
+#         prediction = model([img.to(device)])
+
+#     res1 = Image.fromarray(img.mul(255).permute(1, 2, 0).byte().numpy())
+    
+#     res2 = prediction[0]['boxes'].cpu().numpy()
+
+#     pred_boxes = [[(i[0], i[1]), (i[2], i[3])] for i in list(prediction[0]['boxes'].detach().cpu().numpy())]
+#     # Create figure and axes
+#     # fig,ax = plt.subplots(1)
+
+#     # # Display the image
+#     # ax.imshow(res1)
+
+#     # # Create a Rectangle patch
+#     # for res in res2:
+#     #     rect = patches.Rectangle((res[0],res[1]),res[2]-res[0],res[3]-res[1],linewidth=1,edgecolor='r',facecolor='none')
+
+#     #     # Add the patch to the Axes
+#     #     ax.add_patch(rect)
+
+#     # plt.show()
+
+# print(time.time()-start)
