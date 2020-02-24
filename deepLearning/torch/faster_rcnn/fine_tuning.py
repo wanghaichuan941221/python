@@ -148,7 +148,7 @@ device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
 
-num_classes = 2
+num_classes = 3
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
@@ -168,7 +168,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer,
                                                gamma=0.1)
  
 # training
-num_epochs = 6
+num_epochs = 5
 
 for epoch in range(num_epochs):
     # train for one epoch, printing every 10 iterations
@@ -183,9 +183,9 @@ for epoch in range(num_epochs):
 
 torch.save(model.state_dict(),"model_traffic")
 
-# model.load_state_dict(torch.load("model_traffic"))
+# model.load_state_dict(torch.load("model_traffic_old"))
 
-# img, _ = dataset_test[30]
+# img, _ = dataset_test[3]
  
 # # put the model in evaluation mode
 # model.eval()
@@ -195,7 +195,7 @@ torch.save(model.state_dict(),"model_traffic")
 
 # res1 = Image.fromarray(img.mul(255).permute(1, 2, 0).byte().numpy())
 # pred = prediction[0]
-# res2 = pred['boxes'][pred["scores"]>0.8].cpu().numpy()
+# res2 = pred['boxes'].cpu().numpy()
 
 
 # # Create figure and axes
@@ -216,7 +216,7 @@ torch.save(model.state_dict(),"model_traffic")
 # myLabels = []
 # import time
 # start = time.time()
-# for index1 in range(1,50):
+# for index1 in range(1,30):
 #     img, _ = dataset_test[index1]
 
 #     model.eval()
