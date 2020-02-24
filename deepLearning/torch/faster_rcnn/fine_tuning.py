@@ -132,8 +132,8 @@ dataset_test = TsignDet('data/droneData/', get_transform(train=False))
 
 torch.manual_seed(1)
 indices = torch.randperm(len(dataset)).tolist()
-dataset = torch.utils.data.Subset(dataset, indices[:-50])
-dataset_test = torch.utils.data.Subset(dataset_test, indices[-50:])
+dataset = torch.utils.data.Subset(dataset, indices[:-30])
+dataset_test = torch.utils.data.Subset(dataset_test, indices[-30:])
 
 
 data_loader = torch.utils.data.DataLoader(
@@ -148,7 +148,7 @@ device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
 
-num_classes = 4
+num_classes = 2
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
@@ -185,16 +185,18 @@ torch.save(model.state_dict(),"model_traffic")
 
 # model.load_state_dict(torch.load("model_traffic"))
 
-# img, _ = dataset_test[20]
+# img, _ = dataset_test[30]
  
 # # put the model in evaluation mode
 # model.eval()
 # with torch.no_grad():
 #     prediction = model([img.to(device)])
 
+
 # res1 = Image.fromarray(img.mul(255).permute(1, 2, 0).byte().numpy())
- 
-# res2 = prediction[0]['boxes'].cpu().numpy()
+# pred = prediction[0]
+# res2 = pred['boxes'][pred["scores"]>0.8].cpu().numpy()
+
 
 # # Create figure and axes
 # fig,ax = plt.subplots(1)
@@ -211,10 +213,10 @@ torch.save(model.state_dict(),"model_traffic")
 
 # plt.show()
 
-
+# myLabels = []
 # import time
 # start = time.time()
-# for index1 in range(1,20):
+# for index1 in range(1,50):
 #     img, _ = dataset_test[index1]
 
 #     model.eval()
@@ -222,8 +224,10 @@ torch.save(model.state_dict(),"model_traffic")
 #         prediction = model([img.to(device)])
 
 #     res1 = Image.fromarray(img.mul(255).permute(1, 2, 0).byte().numpy())
-    
-#     res2 = prediction[0]['boxes'].cpu().numpy()
+#     pred = prediction[0]
+#     res2 = pred['boxes'][pred["scores"]>0.8].cpu().numpy()
+#     myLabels.append(pred["labels"][pred["scores"]>0.8].cpu().numpy())
+#     # res2 = prediction[0]['boxes'].cpu().numpy()
 
 #     pred_boxes = [[(i[0], i[1]), (i[2], i[3])] for i in list(prediction[0]['boxes'].detach().cpu().numpy())]
 #     # Create figure and axes
