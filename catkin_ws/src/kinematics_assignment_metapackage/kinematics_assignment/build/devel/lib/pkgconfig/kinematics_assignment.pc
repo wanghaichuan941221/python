@@ -1,0 +1,8 @@
+prefix=/home/haichuan/catkin_ws/kinematics_assignment_metapackage/kinematics_assignment/build/devel
+
+Name: kinematics_assignment
+Description: Description of kinematics_assignment
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/haichuan/catkin_ws/kinematics_assignment_metapackage/kinematics_assignment/build/devel/lib 
+Requires: 

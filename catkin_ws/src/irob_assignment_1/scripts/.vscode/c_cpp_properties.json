@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/haichuan/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/haichuan/catkin_ws/src/beginner_tutorials/include/**",
+                "/home/haichuan/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+                "/home/haichuan/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+                "/home/haichuan/catkin_ws/src/hector_slam/hector_mapping/include/**",
+                "/home/haichuan/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+                "/home/haichuan/catkin_ws/src/learning_tf2/include/**",
+                "/home/haichuan/catkin_ws/src/my_first_ros_pkg/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

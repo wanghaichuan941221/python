@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/haichuan/catkin_ws/kinematics_assignment_metapackage/kinematics_assignment/build/devel/setup.sh

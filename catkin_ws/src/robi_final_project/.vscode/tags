@@ -1,0 +1,714 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArucoThreshold.cfg	../aruco_ros/aruco/cfg/ArucoThreshold.cfg	1;"	kind:file	line:1
+ArucoThreshold.cfg	../aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg	1;"	kind:file	line:1
+BackwardCpp	../backward_ros/conanfile.py	/^class BackwardCpp(ConanFile):$/;"	kind:class	line:4
+BehaviourTree	../robotics_project/scripts/behaviour_trees/bt_students.py	/^class BehaviourTree(ptr.trees.BehaviourTree):$/;"	kind:class	line:285
+BumperTest	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^class BumperTest(unittest.TestCase):$/;"	kind:class	line:55
+COV	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^       float64(0),float64(0),float64(0),float64(0),float64(0),float64(0)  ]$/;"	kind:variable	line:61
+CameraSynchronizer.cfg	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	1;"	kind:file	line:1
+CarbonCollector	../pal_statistics/pal_carbon_collector/src/pal_carbon_collector/carbon_collector.py	/^class CarbonCollector:$/;"	kind:class	line:7
+CarbonCollectorTest	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	/^class CarbonCollectorTest(unittest.TestCase):$/;"	kind:class	line:11
+ControllerLister	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^class ControllerLister:$/;"	kind:class	line:206
+ControllerManager	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^class ControllerManager(Plugin):$/;"	kind:class	line:50
+ControllerManagerDummy	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^class ControllerManagerDummy:$/;"	kind:class	line:32
+ControllerManagerLister	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^class ControllerManagerLister:$/;"	kind:class	line:182
+ControllerTable	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^class ControllerTable(QAbstractTableModel):$/;"	kind:class	line:345
+DDynamicReconfigure	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^class DDynamicReconfigure(ParameterGenerator):$/;"	kind:class	line:19
+DEFAULT_TOPIC	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^DEFAULT_TOPIC = "pal_statistics"$/;"	kind:variable	line:9
+DiffDriveController.cfg	../ros_controllers/diff_drive_controller/cfg/DiffDriveController.cfg	1;"	kind:file	line:1
+DoubleEditor	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^class DoubleEditor(QWidget):$/;"	kind:class	line:36
+E	../ddynamic_reconfigure_python/scripts/class_example.py	/^    E = Example()$/;"	kind:variable	line:50
+EBandPlanner.cfg	../eband_local_planner/cfg/EBandPlanner.cfg	1;"	kind:file	line:1
+Example	../ddynamic_reconfigure_python/scripts/class_example.py	/^class Example(object):$/;"	kind:class	line:12
+FontDelegate	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^class FontDelegate(QStyledItemDelegate):$/;"	kind:class	line:399
+GazeboRosCamera.cfg	../gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosCamera.cfg	1;"	kind:file	line:1
+GazeboRosOpenniKinect.cfg	../gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosOpenniKinect.cfg	1;"	kind:file	line:1
+GripperGrasper	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^class GripperGrasper(object):$/;"	kind:class	line:19
+Hokuyo.cfg	../gazebo_ros_pkgs/gazebo_plugins/cfg/Hokuyo.cfg	1;"	kind:file	line:1
+IsAlreadyThere	../play_motion/play_motion/scripts/is_already_there.py	/^class IsAlreadyThere:$/;"	kind:class	line:7
+JointTrajectoryController	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^class JointTrajectoryController(Plugin):$/;"	kind:class	line:70
+LinkPoseTest	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^class LinkPoseTest(unittest.TestCase):$/;"	kind:class	line:54
+ManipulateAruco	../robotics_project/scripts/utils/manipulation_client.py	/^class ManipulateAruco(object):$/;"	kind:class	line:106
+ModelsHandler	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^class ModelsHandler(object):$/;"	kind:class	line:11
+MotionData	../play_motion/play_motion/src/play_motion/move_joint.py	/^class MotionData:$/;"	kind:class	line:48
+MoveJointException	../play_motion/play_motion/src/play_motion/move_joint.py	/^class MoveJointException(Exception):$/;"	kind:class	line:55
+MovePickPose	../robotics_project/scripts/behaviour_trees/bt_students.py	/^class MovePickPose(pt.behaviour.Behaviour):$/;"	kind:class	line:213
+NAME	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^NAME = 'set_pose'$/;"	kind:variable	line:38
+NAME	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	/^NAME = 'set_wrench'$/;"	kind:variable	line:38
+NAME	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^NAME = 'test_bumper'$/;"	kind:variable	line:38
+NAME	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^NAME = 'test_link_pose'$/;"	kind:variable	line:40
+NavPosesPublisher	../robotics_project/scripts/utils/poses_pub.py	/^class NavPosesPublisher(object):$/;"	kind:class	line:6
+PACKAGE	../aruco_ros/aruco/cfg/ArucoThreshold.cfg	/^PACKAGE = "aruco_ros"$/;"	kind:variable	line:2
+PACKAGE	../aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg	/^PACKAGE = "aruco_ros"$/;"	kind:variable	line:2
+PACKAGE	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^PACKAGE='gazebo_plugins'$/;"	kind:variable	line:38
+PACKAGE	../gazebo_ros_pkgs/gazebo_plugins/cfg/Hokuyo.cfg	/^PACKAGE='gazebo_plugins'$/;"	kind:variable	line:36
+PACKAGE	../gazebo_ros_pkgs/gazebo_ros/cfg/Physics.cfg	/^PACKAGE='gazebo_ros'$/;"	kind:variable	line:35
+PACKAGE	../robotics_project/cfg/SphericalGrasp.cfg	/^PACKAGE = "spherical_grasps_server"$/;"	kind:variable	line:4
+PACKAGE	../ros_controllers/diff_drive_controller/cfg/DiffDriveController.cfg	/^PACKAGE = 'diff_drive_controller'$/;"	kind:variable	line:3
+PKG	../gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosCamera.cfg	/^PKG = 'gazebo_plugins'$/;"	kind:variable	line:3
+PKG	../gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosOpenniKinect.cfg	/^PKG = 'gazebo_plugins'$/;"	kind:variable	line:3
+PKG	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^PKG = 'gazebo_plugins'$/;"	kind:variable	line:37
+PKG	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	/^PKG = 'gazebo_plugins'$/;"	kind:variable	line:37
+PKG	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^PKG = 'gazebo_plugins'$/;"	kind:variable	line:37
+PKG	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^PKG = 'gazebo_plugins'$/;"	kind:variable	line:39
+PKG_NAME	../gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py	/^  PKG_NAME = 'gazebo_plugins'$/;"	kind:variable	line:19
+Physics.cfg	../gazebo_ros_pkgs/gazebo_ros/cfg/Physics.cfg	1;"	kind:file	line:1
+PickAndPlaceServer	../robotics_project/scripts/utils/manipulation_server.py	/^class PickAndPlaceServer(object):$/;"	kind:class	line:90
+RSequence	../robotics_project/scripts/behaviour_trees/reactive_sequence.py	/^class RSequence(pt.composites.Selector):$/;"	kind:class	line:6
+Registration	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^class Registration:$/;"	kind:class	line:29
+SYSTEM_NAME	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	/^SYSTEM_NAME = 'test_system'$/;"	kind:variable	line:9
+SYSTEM_NAME	../pal_statistics/pal_statsd_collector/test/statsd_collector_test.py	/^SYSTEM_NAME = 'test_system'$/;"	kind:variable	line:9
+SimIfaceControl	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^class SimIfaceControl():$/;"	kind:class	line:79
+SimIfaceControl	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	/^class SimIfaceControl():$/;"	kind:class	line:52
+SpawnModel	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^class SpawnModel():$/;"	kind:class	line:72
+SphericalGrasp.cfg	../robotics_project/cfg/SphericalGrasp.cfg	1;"	kind:file	line:1
+SphericalGrasps	../robotics_project/scripts/utils/grasps_server.py	/^class SphericalGrasps(object):$/;"	kind:class	line:112
+SphericalService	../robotics_project/scripts/utils/manipulation_client.py	/^class SphericalService(object):$/;"	kind:class	line:51
+StateMachine	../robotics_project/scripts/state_machines/sm_students.py	/^class StateMachine(object):$/;"	kind:class	line:30
+StatisticsRegistry	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^class StatisticsRegistry:$/;"	kind:class	line:42
+StatsdCollector	../pal_statistics/pal_statsd_collector/src/pal_statsd_collector/statsd_collector.py	/^class StatsdCollector:$/;"	kind:class	line:9
+StatsdCollectorTest	../pal_statistics/pal_statsd_collector/test/statsd_collector_test.py	/^class StatsdCollectorTest(unittest.TestCase):$/;"	kind:class	line:11
+TEST_NAME	../gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py	/^  TEST_NAME = PKG_NAME + 'range_test'$/;"	kind:variable	line:20
+TestBackward	../backward_ros/test_package/conanfile.py	/^class TestBackward(ConanFile):$/;"	kind:class	line:4
+TestPalStatistics	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^class TestPalStatistics(unittest.TestCase):$/;"	kind:class	line:10
+TestRangePlugin	../gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py	/^class TestRangePlugin(unittest.TestCase):$/;"	kind:class	line:7
+TestUtils	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^class TestUtils(unittest.TestCase):$/;"	kind:class	line:46
+TfLookupClient	../tf_lookup/src/tf_lookup/tf_lookup_client.py	/^class TfLookupClient:$/;"	kind:class	line:7
+TfStreamClient	../tf_lookup/src/tf_lookup/tf_stream_client.py	/^class TfStreamClient:$/;"	kind:class	line:7
+Tracker	../ros_control/controller_manager/scripts/controller_manager	/^class Tracker:$/;"	kind:class	line:11
+TypeClass	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^        class TypeClass(object):$/;"	kind:class	line:35
+WrappedFJTA	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^class WrappedFJTA(object):$/;"	kind:class	line:18
+_LIST_CONTROLLERS_STR	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_LIST_CONTROLLERS_STR = 'list_controllers'$/;"	kind:variable	line:44
+_LIST_CONTROLLERS_TYPE	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_LIST_CONTROLLERS_TYPE = 'controller_manager_msgs\/ListControllers'$/;"	kind:variable	line:45
+_LIST_CONTROLLER_TYPES_STR	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_LIST_CONTROLLER_TYPES_STR = 'list_controller_types'$/;"	kind:variable	line:46
+_LIST_CONTROLLER_TYPES_TYPE	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_LIST_CONTROLLER_TYPES_TYPE = 'controller_manager_msgs\/ListControllerTypes'$/;"	kind:variable	line:47
+_LOAD_CONTROLLER_STR	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_LOAD_CONTROLLER_STR = 'load_controller'$/;"	kind:variable	line:48
+_LOAD_CONTROLLER_TYPE	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_LOAD_CONTROLLER_TYPE = 'controller_manager_msgs\/LoadController'$/;"	kind:variable	line:49
+_RELOAD_CONTROLLER_LIBS_STR	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_RELOAD_CONTROLLER_LIBS_STR = 'reload_controller_libraries'$/;"	kind:variable	line:54
+_RELOAD_CONTROLLER_LIBS_TYPE	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_RELOAD_CONTROLLER_LIBS_TYPE = ('controller_manager_msgs\/'$/;"	kind:variable	line:55
+_SWITCH_CONTROLLER_STR	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_SWITCH_CONTROLLER_STR = 'switch_controller'$/;"	kind:variable	line:52
+_SWITCH_CONTROLLER_TYPE	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_SWITCH_CONTROLLER_TYPE = 'controller_manager_msgs\/SwitchController'$/;"	kind:variable	line:53
+_UNLOAD_CONTROLLER_STR	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_UNLOAD_CONTROLLER_STR = 'unload_controller'$/;"	kind:variable	line:50
+_UNLOAD_CONTROLLER_TYPE	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^_UNLOAD_CONTROLLER_TYPE = 'controller_manager_msgs\/UnloadController'$/;"	kind:variable	line:51
+__call__	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^    def __call__(self):$/;"	kind:member	line:198
+__call__	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^    def __call__(self):$/;"	kind:member	line:231
+__del__	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def __del__(self):$/;"	kind:member	line:38
+__init__	../ddynamic_reconfigure_python/scripts/class_example.py	/^    def __init__(self):$/;"	kind:member	line:13
+__init__	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^            def __init__(self, config_description):$/;"	kind:member	line:36
+__init__	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^    def __init__(self, name=None):$/;"	kind:member	line:22
+__init__	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^  def __init__(self):$/;"	kind:member	line:80
+__init__	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	/^  def __init__(self):$/;"	kind:member	line:53
+__init__	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^    def __init__(self, *args):$/;"	kind:member	line:56
+__init__	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^    def __init__(self, *args):$/;"	kind:member	line:55
+__init__	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^    def __init__(self):$/;"	kind:member	line:73
+__init__	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    def __init__(self):$/;"	kind:member	line:20
+__init__	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def __init__(self):$/;"	kind:member	line:20
+__init__	../pal_statistics/pal_carbon_collector/src/pal_carbon_collector/carbon_collector.py	/^    def __init__(self, topics, system_name=None, dry_run=False):$/;"	kind:member	line:8
+__init__	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def __init__(self, name, registry):$/;"	kind:member	line:34
+__init__	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def __init__(self, topic):$/;"	kind:member	line:44
+__init__	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def __init__(self, *args):$/;"	kind:member	line:12
+__init__	../pal_statistics/pal_statsd_collector/src/pal_statsd_collector/statsd_collector.py	/^    def __init__(self, topics):$/;"	kind:member	line:10
+__init__	../play_motion/play_motion/scripts/is_already_there.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../play_motion/play_motion/src/play_motion/move_joint.py	/^    def __init__(self):$/;"	kind:member	line:49
+__init__	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def __init__(self):$/;"	kind:member	line:81
+__init__	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def __init__(self, direction):$/;"	kind:member	line:139
+__init__	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def __init__(self, n, name):$/;"	kind:member	line:19
+__init__	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def __init__(self, name, linear, angular):$/;"	kind:member	line:45
+__init__	../robotics_project/scripts/behaviour_trees/bt_students.py	/^	def __init__(self):$/;"	kind:member	line:287
+__init__	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def __init__(self):$/;"	kind:member	line:149
+__init__	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def __init__(self):$/;"	kind:member	line:215
+__init__	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def __init__(self):$/;"	kind:member	line:29
+__init__	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def __init__(self):$/;"	kind:member	line:89
+__init__	../robotics_project/scripts/behaviour_trees/reactive_sequence.py	/^    def __init__(self, name="Sequence", children=None):$/;"	kind:member	line:12
+__init__	../robotics_project/scripts/state_machines/sm_students.py	/^    def __init__(self):$/;"	kind:member	line:31
+__init__	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^    def __init__(self):$/;"	kind:member	line:12
+__init__	../robotics_project/scripts/utils/grasps_server.py	/^    def __init__(self):$/;"	kind:member	line:113
+__init__	../robotics_project/scripts/utils/manipulation_client.py	/^	def __init__(self):$/;"	kind:member	line:107
+__init__	../robotics_project/scripts/utils/manipulation_client.py	/^	def __init__(self):$/;"	kind:member	line:52
+__init__	../robotics_project/scripts/utils/manipulation_server.py	/^	def __init__(self):$/;"	kind:member	line:91
+__init__	../robotics_project/scripts/utils/poses_pub.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__	../ros_control/controller_manager/scripts/controller_manager	/^    def __init__(self, topic, Msg):$/;"	kind:member	line:12
+__init__	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^    def __init__(self, namespace='\/'):$/;"	kind:member	line:194
+__init__	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^    def __init__(self, namespace='\/controller_manager'):$/;"	kind:member	line:219
+__init__	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def __init__(self, ns="\/controller_manager"):$/;"	kind:member	line:39
+__init__	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def __init__(self, context):$/;"	kind:member	line:56
+__init__	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def __init__(self, controller_info,  icons, parent=None):$/;"	kind:member	line:352
+__init__	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def __init__(self, min_val, max_val):$/;"	kind:member	line:61
+__init__	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def __init__(self, context):$/;"	kind:member	line:110
+__init__	../tf_lookup/src/tf_lookup/tf_lookup_client.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../tf_lookup/src/tf_lookup/tf_stream_client.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__.py	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/__init__.py	1;"	kind:file	line:1
+__init__.py	../gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/__init__.py	1;"	kind:file	line:1
+__init__.py	../gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/__init__.py	1;"	kind:file	line:1
+__init__.py	../pal_statistics/pal_carbon_collector/src/pal_carbon_collector/__init__.py	1;"	kind:file	line:1
+__init__.py	../pal_statistics/pal_statistics/src/pal_statistics/__init__.py	1;"	kind:file	line:1
+__init__.py	../pal_statistics/pal_statsd_collector/src/pal_statsd_collector/__init__.py	1;"	kind:file	line:1
+__init__.py	../play_motion/play_motion/src/play_motion/__init__.py	1;"	kind:file	line:1
+__init__.py	../robotics_project/src/robotics_project/__init__.py	1;"	kind:file	line:1
+__init__.py	../ros_control/controller_manager/src/controller_manager/__init__.py	1;"	kind:file	line:1
+__init__.py	../ros_control/controller_manager_msgs/src/controller_manager_msgs/__init__.py	1;"	kind:file	line:1
+__init__.py	../ros_control/controller_manager_tests/src/controller_manager_tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../ros_control/rqt_controller_manager/src/rqt_controller_manager/__init__.py	1;"	kind:file	line:1
+__init__.py	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/__init__.py	1;"	kind:file	line:1
+__init__.py	../tf_lookup/src/tf_lookup/__init__.py	1;"	kind:file	line:1
+_al_cb	../tf_lookup/src/tf_lookup/tf_lookup_client.py	/^    def _al_cb(self, gh):$/;"	kind:member	line:29
+_al_cb	../tf_lookup/src/tf_lookup/tf_stream_client.py	/^    def _al_cb(self, status, result):$/;"	kind:member	line:46
+_append_ns	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^def _append_ns(in_ns, suffix):$/;"	kind:function	line:443
+_cm_update_freq	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    _cm_update_freq = 1  # Hz$/;"	kind:variable	line:54
+_cmd_pub_freq	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    _cmd_pub_freq = 10.0  # Hz$/;"	kind:variable	line:103
+_ctrlrs_update_freq	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    _ctrlrs_update_freq = 1  # Hz$/;"	kind:variable	line:105
+_feedback_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def _feedback_cb(self, fb_msg):$/;"	kind:member	line:163
+_filter_by_attr	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def _filter_by_attr(list_in, attr_name, attr_val, match_substring=False):$/;"	kind:function	line:385
+_is_permutation	../ros_control/rqt_controller_manager/src/rqt_controller_manager/update_combo.py	/^def _is_permutation(a, b):$/;"	kind:function	line:59
+_is_permutation	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/update_combo.py	/^def _is_permutation(a, b):$/;"	kind:function	line:59
+_joint_widgets	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _joint_widgets(self):  # TODO: Cache instead of compute every time?$/;"	kind:member	line:443
+_jtc_joint_names	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^def _jtc_joint_names(jtc_info):$/;"	kind:function	line:451
+_list_controllers	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _list_controllers(self):$/;"	kind:member	line:211
+_list_ctrl_cb	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def _list_ctrl_cb(self, req):$/;"	kind:member	line:73
+_list_types_cb	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def _list_types_cb(self, req):$/;"	kind:member	line:76
+_load_controller	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _load_controller(self, name):$/;"	kind:member	line:324
+_load_ctrl_cb	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def _load_ctrl_cb(self, req):$/;"	kind:member	line:79
+_load_jtc	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _load_jtc(self):$/;"	kind:member	line:304
+_main_cb	../tf_lookup/src/tf_lookup/tf_stream_client.py	/^    def _main_cb(self, data):$/;"	kind:member	line:53
+_make_srv	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^    def _make_srv(self):$/;"	kind:member	line:243
+_min_traj_dur	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    _min_traj_dur = 5.0 \/ _cmd_pub_freq  # Minimum trajectory duration$/;"	kind:variable	line:106
+_on_cm_change	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _on_cm_change(self, cm_ns):$/;"	kind:member	line:167
+_on_cm_change	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _on_cm_change(self, cm_ns):$/;"	kind:member	line:264
+_on_ctrl_info	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _on_ctrl_info(self, index):$/;"	kind:member	line:286
+_on_ctrl_menu	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _on_ctrl_menu(self, pos):$/;"	kind:member	line:242
+_on_header_menu	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _on_header_menu(self, pos):$/;"	kind:member	line:309
+_on_joint_state_change	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _on_joint_state_change(self, actual_pos):$/;"	kind:member	line:258
+_on_jtc_change	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _on_jtc_change(self, jtc_name):$/;"	kind:member	line:276
+_on_jtc_enabled	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _on_jtc_enabled(self, val):$/;"	kind:member	line:282
+_on_slider_changed	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def _on_slider_changed(self):$/;"	kind:member	line:99
+_on_speed_scaling_change	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _on_speed_scaling_change(self, val):$/;"	kind:member	line:255
+_on_spinbox_changed	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def _on_spinbox_changed(self):$/;"	kind:member	line:106
+_ready	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^    def _ready(self):$/;"	kind:member	line:47
+_reload_libs_cb	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def _reload_libs_cb(self, req):$/;"	kind:member	line:88
+_resolve_controller_ns	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^def _resolve_controller_ns(cm_ns, controller_name):$/;"	kind:function	line:461
+_resolve_controllers_ns	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^def _resolve_controllers_ns(cm_ns):$/;"	kind:function	line:415
+_rosparam_controller_type	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^def _rosparam_controller_type(ctrls_ns, ctrl_name):$/;"	kind:function	line:458
+_running_jtc_info	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _running_jtc_info(self):$/;"	kind:member	line:380
+_set_cm_services	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _set_cm_services(self, cm_ns):$/;"	kind:member	line:180
+_show_controllers	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _show_controllers(self):$/;"	kind:member	line:237
+_slider_to_val	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def _slider_to_val(self, sval):$/;"	kind:member	line:92
+_sloppy_get_controller_managers	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def _sloppy_get_controller_managers(namespace):$/;"	kind:function	line:125
+_srv_exists	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def _srv_exists(srv_name, srv_type):$/;"	kind:function	line:160
+_start_controller	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _start_controller(self, name):$/;"	kind:member	line:330
+_state_cb	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _state_cb(self, msg):$/;"	kind:member	line:402
+_stop_controller	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _stop_controller(self, name):$/;"	kind:member	line:337
+_switch_ctrl_cb	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def _switch_ctrl_cb(self, req):$/;"	kind:member	line:85
+_unload_controller	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _unload_controller(self, name):$/;"	kind:member	line:327
+_unload_ctrl_cb	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	/^    def _unload_ctrl_cb(self, req):$/;"	kind:member	line:82
+_unload_jtc	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _unload_jtc(self):$/;"	kind:member	line:351
+_unregister_cmd_pub	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _unregister_cmd_pub(self):$/;"	kind:member	line:392
+_unregister_state_sub	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _unregister_state_sub(self):$/;"	kind:member	line:397
+_update_cm_list	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _update_cm_list(self):$/;"	kind:member	line:164
+_update_cm_list	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _update_cm_list(self):$/;"	kind:member	line:230
+_update_cmd_cb	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _update_cmd_cb(self):$/;"	kind:member	line:413
+_update_controllers	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def _update_controllers(self):$/;"	kind:member	line:202
+_update_joint_widgets	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _update_joint_widgets(self):$/;"	kind:member	line:433
+_update_jtc_list	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _update_jtc_list(self):$/;"	kind:member	line:233
+_update_single_cmd_cb	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def _update_single_cmd_cb(self, val, name):$/;"	kind:member	line:410
+_update_transforms	../tf_lookup/src/tf_lookup/tf_stream_client.py	/^    def _update_transforms(self, wait):$/;"	kind:member	line:30
+_val_to_slider	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def _val_to_slider(self, val):$/;"	kind:member	line:95
+_widget_update_freq	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    _widget_update_freq = 30.0  # Hz$/;"	kind:variable	line:104
+active_cb	../play_motion/play_motion/src/play_motion/move_joint.py	/^def active_cb():$/;"	kind:function	line:95
+add_transform	../tf_lookup/src/tf_lookup/tf_stream_client.py	/^    def add_transform(self, target, source, cb, wait=False):$/;"	kind:member	line:15
+add_variable	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^    def add_variable(self, name, description, default=None, min=None, max=None, edit_method=""):$/;"	kind:member	line:54
+add_variables_to_self	../ddynamic_reconfigure_python/scripts/class_example.py	/^    def add_variables_to_self(self):$/;"	kind:member	line:33
+aruco_pose_cb	../robotics_project/scripts/utils/manipulation_client.py	/^	def aruco_pose_cb(self, aruco_pose_msg):$/;"	kind:member	line:271
+bag	../dynamic_introspection/scripts/bag_introspection_bag_read.py	/^bag = rosbag.Bag('test.bag')$/;"	kind:variable	line:5
+bag	../dynamic_introspection/scripts/bag_introspection_bag_read_multiplot.py	/^bag = rosbag.Bag('test.bag')$/;"	kind:variable	line:5
+bag	../dynamic_introspection/scripts/bag_read.py	/^bag = rosbag.Bag('test.bag')$/;"	kind:variable	line:2
+bag	../dynamic_introspection/scripts/examples/bag_read.py	/^bag = rosbag.Bag('test.bag')$/;"	kind:variable	line:2
+bag	../dynamic_introspection/scripts/examples/bag_write.py	/^bag = rosbag.Bag('test.bag', 'w')$/;"	kind:variable	line:4
+bag_introspection_bag_read.py	../dynamic_introspection/scripts/bag_introspection_bag_read.py	1;"	kind:file	line:1
+bag_introspection_bag_read_multiplot.py	../dynamic_introspection/scripts/bag_introspection_bag_read_multiplot.py	1;"	kind:file	line:1
+bag_read.py	../dynamic_introspection/scripts/bag_read.py	1;"	kind:file	line:1
+bag_read.py	../dynamic_introspection/scripts/examples/bag_read.py	1;"	kind:file	line:1
+bag_write.py	../dynamic_introspection/scripts/examples/bag_write.py	1;"	kind:file	line:1
+behaviours_student.py	../robotics_project/scripts/behaviour_trees/behaviours_student.py	1;"	kind:file	line:1
+bold	../play_motion/play_motion/src/play_motion/move_joint.py	/^def bold(msg):      return "\\033[0;1m"+msg+"\\033[0;22m"$/;"	kind:function	line:44
+bt_students.py	../robotics_project/scripts/behaviour_trees/bt_students.py	1;"	kind:file	line:1
+build	../backward_ros/conanfile.py	/^    def build(self):$/;"	kind:member	line:34
+build	../backward_ros/test_package/conanfile.py	/^    def build(self):$/;"	kind:member	line:9
+bumperStateInput	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^    def bumperStateInput(self, contacts_state):$/;"	kind:member	line:80
+callDeleteService	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^    def callDeleteService(self):$/;"	kind:member	line:299
+callSpawnService	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^    def callSpawnService(self):$/;"	kind:member	line:203
+callback	../dynamic_introspection/scripts/topic_introspection_bag_read_multiplot.py	/^def callback(msg):$/;"	kind:function	line:6
+callback	../ros_control/controller_manager/scripts/controller_manager	/^    def callback(self, msg):$/;"	kind:member	line:16
+cancel	../play_motion/play_motion/src/play_motion/move_joint.py	/^    def cancel(signum, frame):$/;"	kind:function	line:121
+carbon_collector	../pal_statistics/pal_carbon_collector/scripts/carbon_collector_node.py	/^    carbon_collector = CarbonCollector(topics, dry_run=dry_run)$/;"	kind:variable	line:22
+carbon_collector.py	../pal_statistics/pal_carbon_collector/src/pal_carbon_collector/carbon_collector.py	1;"	kind:file	line:1
+carbon_collector_node.py	../pal_statistics/pal_carbon_collector/scripts/carbon_collector_node.py	1;"	kind:file	line:1
+carbon_collector_test.py	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	1;"	kind:file	line:1
+checkContact	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^    def checkContact(self):$/;"	kind:member	line:86
+checkForModel	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^    def checkForModel(self,model):$/;"	kind:member	line:193
+checkPose	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^    def checkPose(self):$/;"	kind:member	line:131
+check_states	../robotics_project/scripts/state_machines/sm_students.py	/^    def check_states(self):$/;"	kind:member	line:91
+claimed_resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              claimed_resources=[$/;"	kind:variable	line:36
+claimed_resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              claimed_resources=[$/;"	kind:variable	line:44
+claimed_resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              claimed_resources=[$/;"	kind:variable	line:52
+claimed_resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              claimed_resources=[$/;"	kind:variable	line:60
+claimed_resources	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^              claimed_resources=[$/;"	kind:variable	line:47
+claimed_resources	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^              claimed_resources=[$/;"	kind:variable	line:55
+class_example.py	../ddynamic_reconfigure_python/scripts/class_example.py	1;"	kind:file	line:1
+clear	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def clear(self):$/;"	kind:member	line:117
+client	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	/^  client = actionlib.SimpleActionClient("gripper" + suffix + "_controller\/follow_joint_trajectory", FollowJointTrajectoryAction)$/;"	kind:variable	line:19
+client	../pal_gripper/pal_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  client = actionlib.SimpleActionClient("gripper_controller\/follow_joint_trajectory", FollowJointTrajectoryAction)$/;"	kind:variable	line:15
+client	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  client = actionlib.SimpleActionClient("gripper" + suffix + "_controller\/follow_joint_trajectory", FollowJointTrajectoryAction)$/;"	kind:variable	line:23
+client	../tiago_simulation/tiago_controller_configuration_gazebo/scripts/home_gripper.py	/^  client = actionlib.SimpleActionClient("gripper_controller\/follow_joint_trajectory", FollowJointTrajectoryAction)$/;"	kind:variable	line:15
+client	../tiago_simulation/tiago_gazebo/scripts/grasp_demo.py	/^  client = actionlib.SimpleActionClient("play_motion", PlayMotionAction)$/;"	kind:variable	line:11
+closed	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	/^closed  = [0.045, 0.045]$/;"	kind:variable	line:9
+closed	../pal_gripper/pal_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^closed  = [0.045, 0.045]$/;"	kind:variable	line:10
+closed	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^closed  = [0.03]$/;"	kind:variable	line:10
+closed	../tiago_simulation/tiago_controller_configuration_gazebo/scripts/home_gripper.py	/^closed  = [0.045, 0.045]$/;"	kind:variable	line:10
+cm_bad_type	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    cm_bad_type = ControllerManagerDummy('\/bad_type')$/;"	kind:variable	line:71
+cm_default	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    cm_default = ControllerManagerDummy()$/;"	kind:variable	line:41
+cm_foo1	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    cm_foo1 = ControllerManagerDummy('\/foo\/robot\/controller_manager1')$/;"	kind:variable	line:39
+cm_foo2	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    cm_foo2 = ControllerManagerDummy('\/foo\/robot\/controller_manager2')$/;"	kind:variable	line:40
+cm_incomplete	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    cm_incomplete = ControllerManagerDummy('\/incomplete')$/;"	kind:variable	line:67
+cm_msgs_utils_rostest.py	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	1;"	kind:file	line:1
+cm_msgs_utils_test.py	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	1;"	kind:file	line:1
+cm_root	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    cm_root = ControllerManagerDummy('\/')$/;"	kind:variable	line:38
+cm_services	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^cm_services = {$/;"	kind:variable	line:59
+cmake_option	../backward_ros/conanfile.py	/^    def cmake_option(self, option, prefix = ''):$/;"	kind:member	line:31
+cmd_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def cmd_cb(self, trajectory):$/;"	kind:member	line:83
+code	../robotics_project/scripts/state_machines/sm_students.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	kind:variable	line:25
+code	../robotics_project/scripts/utils/manipulation_client.py	/^		code = MoveItErrorCodes.__dict__[name]$/;"	kind:variable	line:48
+code	../robotics_project/scripts/utils/manipulation_server.py	/^		code = MoveItErrorCodes.__dict__[name]$/;"	kind:variable	line:43
+codeCodes	../play_motion/play_motion/src/play_motion/move_joint.py	/^codeCodes = {$/;"	kind:variable	line:24
+columnCount	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def columnCount(self, parent):$/;"	kind:member	line:360
+compare_full_msg	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def compare_full_msg(self, expected, full_msg):$/;"	kind:member	line:26
+compare_optimized_msgs	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def compare_optimized_msgs(self, expected, names_msg, values_msg):$/;"	kind:member	line:33
+conanfile.py	../backward_ros/conanfile.py	1;"	kind:file	line:1
+conanfile.py	../backward_ros/test_package/conanfile.py	1;"	kind:file	line:1
+controller_manager	../ros_control/controller_manager/scripts/controller_manager	1;"	kind:file	line:1
+controller_manager.py	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	1;"	kind:file	line:1
+controller_manager_dummy.py	../ros_control/controller_manager_tests/src/controller_manager_tests/controller_manager_dummy.py	1;"	kind:file	line:1
+controller_manager_interface.py	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	1;"	kind:file	line:1
+convert_poses.py	../play_motion/play_motion/scripts/convert_poses.py	1;"	kind:file	line:1
+counter	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^class counter(pt.behaviour.Behaviour):$/;"	kind:class	line:13
+createDatabaseCode	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^    def createDatabaseCode(self, database_name):$/;"	kind:member	line:200
+createFullMsg	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def createFullMsg(self):$/;"	kind:member	line:118
+createGripperTranslation	../robotics_project/scripts/utils/grasps_server.py	/^    def createGripperTranslation(self, direction_vector,$/;"	kind:member	line:400
+createOptimizedMsgs	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def createOptimizedMsgs(self):$/;"	kind:member	line:131
+createPickupGoal	../robotics_project/scripts/utils/manipulation_server.py	/^def createPickupGoal(group="arm_torso", target="part",$/;"	kind:function	line:47
+createPlaceGoal	../robotics_project/scripts/utils/manipulation_server.py	/^def createPlaceGoal(place_pose,$/;"	kind:function	line:69
+create_grasp	../robotics_project/scripts/utils/grasps_server.py	/^    def create_grasp(self, pose, grasp_id):$/;"	kind:member	line:277
+create_grasps_from_object_pose	../robotics_project/scripts/utils/grasps_server.py	/^    def create_grasps_from_object_pose(self, object_pose):$/;"	kind:member	line:349
+create_grasps_from_poses	../robotics_project/scripts/utils/grasps_server.py	/^    def create_grasps_from_poses(self, sphere_poses):$/;"	kind:member	line:265
+create_placings_from_object_pose	../robotics_project/scripts/utils/grasps_server.py	/^    def create_placings_from_object_pose(self, posestamped):$/;"	kind:member	line:368
+ctrl_list	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^ctrl_list = [$/;"	kind:variable	line:32
+ctrl_list	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    ctrl_list = [$/;"	kind:variable	line:43
+d	../gazebo_ros_pkgs/gazebo_plugins/setup.py	/^d = generate_distutils_setup()$/;"	kind:variable	line:5
+d	../gazebo_ros_pkgs/gazebo_ros/setup.py	/^d = generate_distutils_setup()$/;"	kind:variable	line:5
+d	../pal_statistics/pal_carbon_collector/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:4
+d	../pal_statistics/pal_statistics/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+d	../pal_statistics/pal_statsd_collector/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:4
+d	../play_motion/play_motion/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+d	../robotics_project/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+d	../ros_control/controller_manager_tests/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+d	../ros_control/rqt_controller_manager/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+d	../ros_controllers/rqt_joint_trajectory_controller/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+d	../tf_lookup/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:6
+data	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def data(self, index, role):$/;"	kind:member	line:372
+ddr_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    def ddr_cb(self, config, level):$/;"	kind:member	line:70
+ddynamic_reconfigure.py	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	1;"	kind:file	line:1
+default_options	../backward_ros/conanfile.py	/^    default_options = ($/;"	kind:variable	line:19
+delete_cube	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^			delete_cube = DeleteModelRequest('aruco_cube')$/;"	kind:variable	line:47
+delete_model_res	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^			delete_model_res = self.delete_model_srv(delete_cube)$/;"	kind:variable	line:48
+delete_model_res	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^			delete_model_res = self.delete_model_srv(delete_robot)$/;"	kind:variable	line:55
+delete_robot	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^			delete_robot = DeleteModelRequest('tiago_steel')$/;"	kind:variable	line:54
+detect_cube_on_second_table	../robotics_project/scripts/behaviour_trees/bt_students.py	/^class detect_cube_on_second_table(pt.behaviour.Behaviour):$/;"	kind:class	line:141
+double_editor.py	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	1;"	kind:file	line:1
+dry_run	../pal_statistics/pal_carbon_collector/scripts/carbon_collector_node.py	/^        dry_run = rospy.get_param('~dry_run')$/;"	kind:variable	line:20
+dry_run	../pal_statistics/pal_carbon_collector/scripts/carbon_collector_node.py	/^    dry_run = False$/;"	kind:variable	line:18
+dyn_rec_callback	../ddynamic_reconfigure_python/scripts/class_example.py	/^    def dyn_rec_callback(self, config, level):$/;"	kind:member	line:38
+dyn_rec_callback	../ddynamic_reconfigure_python/scripts/example.py	/^def dyn_rec_callback(config, level):$/;"	kind:function	line:12
+dyn_rec_callback	../robotics_project/scripts/utils/grasps_server.py	/^    def dyn_rec_callback(self, config, level):$/;"	kind:member	line:130
+evaluate_msgs	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def evaluate_msgs(self, expected, registry):$/;"	kind:member	line:39
+example.py	../ddynamic_reconfigure_python/scripts/example.py	1;"	kind:file	line:1
+execute_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def execute_cb(self, goal):$/;"	kind:member	line:122
+exports	../backward_ros/conanfile.py	/^    exports = 'backward.cpp', 'backward.hpp', 'test\/*', 'CMakeLists.txt', 'BackwardConfig.cmake'$/;"	kind:variable	line:28
+f	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^		f = open(self.aruco_cube,'r')$/;"	kind:variable	line:34
+filter_by_hardware_interface	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def filter_by_hardware_interface(ctrl_list,$/;"	kind:function	line:304
+filter_by_hardware_interface_test	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^def filter_by_hardware_interface_test():$/;"	kind:function	line:137
+filter_by_name	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def filter_by_name(ctrl_list, ctrl_name, match_substring=False):$/;"	kind:function	line:256
+filter_by_name_test	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^def filter_by_name_test():$/;"	kind:function	line:71
+filter_by_resources	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def filter_by_resources(ctrl_list,$/;"	kind:function	line:333
+filter_by_resources_test	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^def filter_by_resources_test():$/;"	kind:function	line:167
+filter_by_state	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def filter_by_state(ctrl_list, ctrl_state, match_substring=False):$/;"	kind:function	line:288
+filter_by_state_test	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^def filter_by_state_test():$/;"	kind:function	line:93
+filter_by_type	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def filter_by_type(ctrl_list, ctrl_type, match_substring=False):$/;"	kind:function	line:272
+filter_by_type_test	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^def filter_by_type_test():$/;"	kind:function	line:115
+filter_poses	../robotics_project/scripts/utils/grasps_server.py	/^def filter_poses(sphere_poses, object_pose,$/;"	kind:function	line:80
+forearm_trig_mode_enum	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^forearm_trig_mode_enum = gen.enum([ t_int, t_ign, t_proj, t_noproj ], "The triggering mode for a forearm camera.")$/;"	kind:variable	line:68
+full_msg_cb	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def full_msg_cb(self, msg):$/;"	kind:member	line:17
+gazebo_interface.py	../gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/gazebo_interface.py	1;"	kind:file	line:1
+gazebo_model	../gazebo_ros_pkgs/gazebo_plugins/scripts/gazebo_model	1;"	kind:file	line:1
+gazebo_models_hdl.py	../robotics_project/scripts/utils/gazebo_models_hdl.py	1;"	kind:file	line:1
+gazebo_plugins_interface.py	../gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_plugins_interface.py	1;"	kind:file	line:1
+gen	../aruco_ros/aruco/cfg/ArucoThreshold.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:6
+gen	../aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:6
+gen	../eband_local_planner/cfg/EBandPlanner.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:7
+gen	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:54
+gen	../gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosCamera.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:9
+gen	../gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosOpenniKinect.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:9
+gen	../gazebo_ros_pkgs/gazebo_plugins/cfg/Hokuyo.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:45
+gen	../gazebo_ros_pkgs/gazebo_ros/cfg/Physics.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:41
+gen	../robotics_project/cfg/SphericalGrasp.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:6
+gen	../ros_controllers/diff_drive_controller/cfg/DiffDriveController.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:7
+generate_grasp_poses	../robotics_project/scripts/utils/grasps_server.py	/^    def generate_grasp_poses(self, object_pose):$/;"	kind:member	line:174
+generators	../backward_ros/conanfile.py	/^    generators = 'cmake'$/;"	kind:variable	line:29
+generators	../backward_ros/test_package/conanfile.py	/^    generators = 'cmake'$/;"	kind:variable	line:7
+getInitialRobotPose	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def getInitialRobotPose(self,data):$/;"	kind:member	line:248
+getMessage	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def getMessage(self,data):$/;"	kind:member	line:174
+getPickPoseMessage	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def getPickPoseMessage(self,data):$/;"	kind:member	line:244
+get_controller_managers	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def get_controller_managers(namespace='\/', initial_guess=None):$/;"	kind:function	line:69
+get_joint_limits	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_limits_urdf.py	/^def get_joint_limits(key='robot_description', use_smallest_joint_limits=True):$/;"	kind:function	line:14
+get_optimal_close	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    def get_optimal_close(self):$/;"	kind:member	line:110
+get_rosparam_controller_names	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def get_rosparam_controller_names(namespace='\/'):$/;"	kind:function	line:405
+get_status_string	../play_motion/play_motion/scripts/run_motion_python_node.py	/^def get_status_string(status_code):$/;"	kind:function	line:69
+get_type	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^    def get_type(self):$/;"	kind:member	line:34
+get_variable_names	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^    def get_variable_names(self):$/;"	kind:member	line:71
+gg	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    gg = GripperGrasper()$/;"	kind:variable	line:129
+go	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^class go(pt.behaviour.Behaviour):$/;"	kind:class	line:39
+goal	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	/^  goal = FollowJointTrajectoryGoal()$/;"	kind:variable	line:34
+goal	../pal_gripper/pal_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  goal = FollowJointTrajectoryGoal()$/;"	kind:variable	line:30
+goal	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  goal = FollowJointTrajectoryGoal()$/;"	kind:variable	line:38
+goal	../tiago_simulation/tiago_controller_configuration_gazebo/scripts/home_gripper.py	/^  goal = FollowJointTrajectoryGoal()$/;"	kind:variable	line:30
+goal	../tiago_simulation/tiago_gazebo/scripts/grasp_demo.py	/^  goal = PlayMotionGoal()$/;"	kind:variable	line:19
+grasp_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    def grasp_cb(self, req):$/;"	kind:member	line:81
+grasp_demo.py	../tiago_simulation/tiago_gazebo/scripts/grasp_demo.py	1;"	kind:file	line:1
+grasp_object	../robotics_project/scripts/utils/manipulation_server.py	/^	def grasp_object(self, object_pose):$/;"	kind:member	line:189
+grasps_server.py	../robotics_project/scripts/utils/grasps_server.py	1;"	kind:file	line:1
+gripper_grasping.py	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	1;"	kind:file	line:1
+hardware_interface	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      hardware_interface='hardware_interface::BarInterface',$/;"	kind:variable	line:46
+hardware_interface	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      hardware_interface='hardware_interface::BazInterface',$/;"	kind:variable	line:65
+hardware_interface	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      hardware_interface='hardware_interface::FooBarInterface',$/;"	kind:variable	line:54
+hardware_interface	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      hardware_interface='hardware_interface::FooInterface',$/;"	kind:variable	line:38
+hardware_interface	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      hardware_interface='hardware_interface::FooInterface',$/;"	kind:variable	line:62
+hardware_interface	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^                      hardware_interface='hardware_interface::BarInterface',$/;"	kind:variable	line:57
+hardware_interface	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^                      hardware_interface='hardware_interface::FooInterface',$/;"	kind:variable	line:49
+headerData	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def headerData(self, col, orientation, role):$/;"	kind:member	line:363
+home_gripper.py	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	1;"	kind:file	line:1
+home_gripper.py	../pal_gripper/pal_gripper_controller_configuration_gazebo/scripts/home_gripper.py	1;"	kind:file	line:1
+home_gripper.py	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	1;"	kind:file	line:1
+home_gripper.py	../tiago_simulation/tiago_controller_configuration_gazebo/scripts/home_gripper.py	1;"	kind:file	line:1
+i	../dynamic_introspection/scripts/examples/bag_write.py	/^    i = Int32()$/;"	kind:variable	line:10
+iat	../play_motion/play_motion/scripts/is_already_there.py	/^    iat = IsAlreadyThere()$/;"	kind:variable	line:44
+index	../dynamic_introspection/scripts/bag_introspection_bag_read_multiplot.py	/^    index = 1$/;"	kind:variable	line:9
+initial_pose	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^		initial_pose = Pose()$/;"	kind:variable	line:29
+invalid_cm	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^invalid_cm = [$/;"	kind:variable	line:39
+isAngleZero	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def isAngleZero(self,data):$/;"	kind:member	line:180
+is_already_there	../play_motion/play_motion/scripts/is_already_there.py	/^    def is_already_there(self, data):$/;"	kind:member	line:21
+is_already_there.py	../play_motion/play_motion/scripts/is_already_there.py	1;"	kind:file	line:1
+is_controller_manager	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	/^def is_controller_manager(namespace):$/;"	kind:function	line:104
+jointStateChanged	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    jointStateChanged = Signal([dict])$/;"	kind:variable	line:108
+joint_limits_urdf.py	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_limits_urdf.py	1;"	kind:file	line:1
+joint_names	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	/^  joint_names = ["gripper" + suffix + "_left_finger_joint", "gripper" + suffix + "_right_finger_joint"]$/;"	kind:variable	line:17
+joint_names	../pal_gripper/pal_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^joint_names = ["gripper_left_finger_joint", "gripper_right_finger_joint"]$/;"	kind:variable	line:9
+joint_names	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  joint_names = ["gripper" + suffix + "_finger_joint"]$/;"	kind:variable	line:20
+joint_names	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^joint_names = ["gripper_finger_joint"]$/;"	kind:variable	line:9
+joint_names	../tiago_simulation/tiago_controller_configuration_gazebo/scripts/home_gripper.py	/^joint_names = ["gripper_left_finger_joint", "gripper_right_finger_joint"]$/;"	kind:variable	line:9
+joint_state_cb	../play_motion/play_motion/scripts/is_already_there.py	/^    def joint_state_cb(self, data):$/;"	kind:member	line:17
+joint_trajectory_controller.py	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	1;"	kind:file	line:1
+key_from_transform	../tf_lookup/src/tf_lookup/tf_common.py	/^def key_from_transform(target, source):$/;"	kind:function	line:5
+license	../backward_ros/conanfile.py	/^    license = 'MIT'$/;"	kind:variable	line:8
+linkP3dInput	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^    def linkP3dInput(self, p3d):$/;"	kind:member	line:110
+list_controller_types	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def list_controller_types():$/;"	kind:function	line:11
+list_controllers	../ros_control/controller_manager/scripts/unspawner	/^list_controllers = rospy.ServiceProxy('controller_manager\/list_controllers', ListControllers)$/;"	kind:variable	line:44
+list_controllers	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def list_controllers():$/;"	kind:function	line:52
+listener	../dynamic_introspection/scripts/topic_introspection_bag_read_multiplot.py	/^def listener():$/;"	kind:function	line:18
+load_controller	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def load_controller(name):$/;"	kind:function	line:63
+load_controller_service	../ros_control/controller_manager/scripts/spawner	/^load_controller_service = ""$/;"	kind:variable	line:49
+load_model	../gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_plugins_interface.py	/^def load_model(model_msg):$/;"	kind:function	line:14
+load_motion	../play_motion/play_motion/src/play_motion/move_joint.py	/^def load_motion(motion_namespace, motion_data):$/;"	kind:function	line:84
+loaded	../ros_control/controller_manager/scripts/spawner	/^loaded = []$/;"	kind:variable	line:46
+lvl_all	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_all = lvl_stereo | lvl_forearm_r | lvl_forearm_l | lvl_projector$/;"	kind:variable	line:52
+lvl_forearm_l	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_forearm_l = 8$/;"	kind:variable	line:49
+lvl_forearm_r	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_forearm_r = 4$/;"	kind:variable	line:48
+lvl_narrow	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_narrow = 1$/;"	kind:variable	line:46
+lvl_projector	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_projector = 16$/;"	kind:variable	line:50
+lvl_stereo	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_stereo = lvl_wide | lvl_narrow$/;"	kind:variable	line:51
+lvl_wide	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^lvl_wide = 2$/;"	kind:variable	line:47
+main	../play_motion/play_motion/scripts/convert_poses.py	/^def main():$/;"	kind:function	line:8
+main	../ros_control/controller_manager/scripts/spawner	/^def main():$/;"	kind:function	line:97
+main	../ros_control/controller_manager/scripts/unspawner	/^def main():$/;"	kind:function	line:46
+main	../ros_control/rqt_controller_manager/scripts/rqt_controller_manager	/^main = Main()$/;"	kind:variable	line:7
+main	../ros_controllers/rqt_joint_trajectory_controller/scripts/rqt_joint_trajectory_controller	/^main = Main()$/;"	kind:variable	line:7
+manipulation_client.py	../robotics_project/scripts/utils/manipulation_client.py	1;"	kind:file	line:1
+manipulation_server.py	../robotics_project/scripts/utils/manipulation_server.py	1;"	kind:file	line:1
+motion_data	../play_motion/play_motion/src/play_motion/move_joint.py	/^motion_data = MotionData()$/;"	kind:variable	line:59
+move_head	../robotics_project/scripts/utils/manipulation_client.py	/^	def move_head(self, req):$/;"	kind:member	line:83
+move_joint	../play_motion/play_motion/scripts/move_joint	1;"	kind:file	line:1
+move_joint	../play_motion/play_motion/src/play_motion/move_joint.py	/^def move_joint():$/;"	kind:function	line:101
+move_joint.py	../play_motion/play_motion/src/play_motion/move_joint.py	1;"	kind:file	line:1
+move_torso	../robotics_project/scripts/utils/manipulation_client.py	/^        def move_torso(self, string_operation):$/;"	kind:function	line:234
+movehead	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^class movehead(pt.behaviour.Behaviour):$/;"	kind:class	line:131
+moveit_error_dict	../robotics_project/scripts/state_machines/sm_students.py	/^moveit_error_dict = {}$/;"	kind:variable	line:22
+moveit_error_dict	../robotics_project/scripts/utils/manipulation_client.py	/^moveit_error_dict = {}$/;"	kind:variable	line:45
+moveit_error_dict	../robotics_project/scripts/utils/manipulation_server.py	/^moveit_error_dict = {}$/;"	kind:variable	line:40
+multi_cm_dummy.py	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	1;"	kind:file	line:1
+name	../backward_ros/conanfile.py	/^    name = 'backward'$/;"	kind:variable	line:6
+names_msg_cb	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def names_msg_cb(self, msg):$/;"	kind:member	line:20
+narrow_trig_mode_enum	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^narrow_trig_mode_enum  = gen.enum([ t_ign, t_proj, t_noproj, t_alt ], "The triggering mode for the narrow camera.")$/;"	kind:variable	line:67
+normalize	../robotics_project/scripts/utils/grasps_server.py	/^def normalize(v):$/;"	kind:function	line:47
+normalize_angle	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^def normalize_angle(angle):$/;"	kind:function	line:67
+normalize_angle_positive	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^def normalize_angle_positive(angle):$/;"	kind:function	line:64
+number_vectors	../dynamic_introspection/scripts/bag_introspection_bag_read_multiplot.py	/^    number_vectors = len(msg.vectors)$/;"	kind:variable	line:8
+options	../backward_ros/conanfile.py	/^    options = {$/;"	kind:variable	line:10
+p_auto	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^p_auto  = gen.const("ProjectorAuto", int_t, 2, "The projector is on if one of the cameras is using it.")$/;"	kind:variable	line:57
+p_off	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^p_off   = gen.const("ProjectorOff", int_t, 1, "The projector is always off.")$/;"	kind:variable	line:56
+p_on	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^p_on    = gen.const("ProjectorOn", int_t, 3, "The projector is always on.")$/;"	kind:variable	line:58
+package	../backward_ros/conanfile.py	/^    def package(self):$/;"	kind:member	line:49
+package_dir	../ddynamic_reconfigure_python/setup.py	/^    package_dir={'': 'src'},$/;"	kind:variable	line:9
+package_dir	../pal_statistics/pal_carbon_collector/setup.py	/^    package_dir={'': 'src'}$/;"	kind:variable	line:6
+package_dir	../pal_statistics/pal_statistics/setup.py	/^    package_dir={'': 'src'},$/;"	kind:variable	line:8
+package_dir	../pal_statistics/pal_statsd_collector/setup.py	/^    package_dir={'': 'src'}$/;"	kind:variable	line:6
+package_dir	../play_motion/play_motion/setup.py	/^   package_dir={'': 'src'}$/;"	kind:variable	line:8
+package_dir	../robotics_project/setup.py	/^    package_dir={'': 'src'}$/;"	kind:variable	line:8
+package_dir	../ros_control/controller_manager/setup.py	/^              package_dir={'': 'src'})$/;"	kind:variable	line:9
+package_dir	../ros_control/controller_manager_msgs/setup.py	/^              package_dir={'': 'src'})$/;"	kind:variable	line:9
+package_dir	../ros_control/controller_manager_tests/setup.py	/^   package_dir={'': 'src'}$/;"	kind:variable	line:8
+package_dir	../ros_control/rqt_controller_manager/setup.py	/^   package_dir={'': 'src'}$/;"	kind:variable	line:8
+package_dir	../ros_controllers/rqt_joint_trajectory_controller/setup.py	/^   package_dir={'': 'src'}$/;"	kind:variable	line:8
+package_dir	../tf_lookup/setup.py	/^    package_dir={'': 'src'},$/;"	kind:variable	line:8
+package_info	../backward_ros/conanfile.py	/^    def package_info(self):$/;"	kind:member	line:56
+packages	../ddynamic_reconfigure_python/setup.py	/^    packages=['ddynamic_reconfigure_python'],$/;"	kind:variable	line:8
+packages	../pal_statistics/pal_carbon_collector/setup.py	/^    packages=['pal_carbon_collector'],$/;"	kind:variable	line:5
+packages	../pal_statistics/pal_statistics/setup.py	/^    packages=['pal_statistics'],$/;"	kind:variable	line:7
+packages	../pal_statistics/pal_statsd_collector/setup.py	/^    packages=['pal_statsd_collector'],$/;"	kind:variable	line:5
+packages	../play_motion/play_motion/setup.py	/^   packages=['play_motion'],$/;"	kind:variable	line:7
+packages	../robotics_project/setup.py	/^    packages=['robotics_project'],$/;"	kind:variable	line:7
+packages	../ros_control/controller_manager/setup.py	/^          packages=['controller_manager'],$/;"	kind:variable	line:8
+packages	../ros_control/controller_manager_msgs/setup.py	/^          packages=['controller_manager_msgs'],$/;"	kind:variable	line:8
+packages	../ros_control/controller_manager_tests/setup.py	/^   packages=['controller_manager_tests'],$/;"	kind:variable	line:7
+packages	../ros_control/rqt_controller_manager/setup.py	/^   packages=['rqt_controller_manager'],$/;"	kind:variable	line:7
+packages	../ros_controllers/rqt_joint_trajectory_controller/setup.py	/^   packages=['rqt_joint_trajectory_controller'],$/;"	kind:variable	line:7
+packages	../tf_lookup/setup.py	/^    packages=['tf_lookup'],$/;"	kind:variable	line:7
+paint	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def paint(self, painter, option, index):$/;"	kind:member	line:404
+paps	../robotics_project/scripts/utils/manipulation_server.py	/^	paps = PickAndPlaceServer()$/;"	kind:variable	line:274
+parallel_gripper_fake.py	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	1;"	kind:file	line:1
+parseUserInputs	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^    def parseUserInputs(self):$/;"	kind:member	line:94
+parse_args	../play_motion/play_motion/src/play_motion/move_joint.py	/^def parse_args(args=None):$/;"	kind:function	line:61
+parse_args	../ros_control/controller_manager/scripts/spawner	/^def parse_args(args=None):$/;"	kind:function	line:81
+pick_and_place_aruco	../robotics_project/scripts/utils/manipulation_client.py	/^	def pick_and_place_aruco(self, string_operation):$/;"	kind:member	line:151
+pick_cb	../robotics_project/scripts/utils/manipulation_server.py	/^	def pick_cb(self, goal):$/;"	kind:member	line:145
+pick_cube	../robotics_project/scripts/behaviour_trees/bt_students.py	/^class pick_cube(pt.behaviour.Behaviour):$/;"	kind:class	line:21
+place_cb	../robotics_project/scripts/utils/manipulation_server.py	/^	def place_cb(self, goal):$/;"	kind:member	line:157
+place_cube	../robotics_project/scripts/behaviour_trees/bt_students.py	/^class place_cube(pt.behaviour.Behaviour):$/;"	kind:class	line:81
+place_object	../robotics_project/scripts/utils/manipulation_server.py	/^	def place_object(self, object_pose):$/;"	kind:member	line:235
+play_motion_client	../play_motion/play_motion/src/play_motion/move_joint.py	/^def play_motion_client(action_ns):$/;"	kind:function	line:78
+poses_pub.py	../robotics_project/scripts/utils/poses_pub.py	1;"	kind:file	line:1
+poses_publisher	../robotics_project/scripts/utils/poses_pub.py	/^    def poses_publisher(self):$/;"	kind:member	line:21
+prepare_robot_nav	../robotics_project/scripts/utils/manipulation_client.py	/^	def prepare_robot_nav(self):$/;"	kind:member	line:259
+prepare_robot_pandp	../robotics_project/scripts/utils/manipulation_client.py	/^	def prepare_robot_pandp(self):$/;"	kind:member	line:250
+printLinkPose	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^    def printLinkPose(self, p3d):$/;"	kind:member	line:94
+print_err	../play_motion/play_motion/src/play_motion/move_joint.py	/^def print_err(msg): printc(msg, 'red', file = sys.stderr)$/;"	kind:function	line:45
+print_help	../ros_control/controller_manager/scripts/unspawner	/^def print_help():$/;"	kind:function	line:79
+print_ok	../play_motion/play_motion/src/play_motion/move_joint.py	/^def print_ok(msg):  printc(msg, 'green')$/;"	kind:function	line:46
+print_usage	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^def print_usage(exit_code = 0):$/;"	kind:function	line:193
+print_usage	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	/^def print_usage(exit_code = 0):$/;"	kind:function	line:109
+print_usage	../ros_control/controller_manager/scripts/controller_manager	/^def print_usage(exit_code = 0):$/;"	kind:function	line:19
+printc	../play_motion/play_motion/src/play_motion/move_joint.py	/^def printc(text, color, file = sys.stdout):$/;"	kind:function	line:36
+projector_mode_enum	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^projector_mode_enum = gen.enum([ p_off, p_auto, p_on ], "The projectors operating mode.")$/;"	kind:variable	line:59
+ps	../robotics_project/scripts/utils/grasps_server.py	/^    ps = PoseStamped()$/;"	kind:variable	line:425
+pub_state	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def pub_state(self, _):$/;"	kind:member	line:167
+publish	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def publish(self):$/;"	kind:member	line:87
+publishCustomStatistic	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def publishCustomStatistic(self, name, value):$/;"	kind:member	line:100
+publishCustomStatistics	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def publishCustomStatistics(self, msg):$/;"	kind:member	line:112
+publish_grasps	../robotics_project/scripts/utils/grasps_server.py	/^    def publish_grasps(self, grasps):$/;"	kind:member	line:234
+publish_object_marker	../robotics_project/scripts/utils/grasps_server.py	/^    def publish_object_marker(self, object_pose, width=0.03):$/;"	kind:member	line:250
+publish_poses	../robotics_project/scripts/utils/grasps_server.py	/^    def publish_poses(self, sphere_poses):$/;"	kind:member	line:242
+quaternion_from_vectors	../robotics_project/scripts/utils/grasps_server.py	/^def quaternion_from_vectors(v0, v1):$/;"	kind:function	line:55
+query_transform	../tf_lookup/src/tf_lookup/tf_lookup_client.py	/^    def query_transform(self, target, source, cb):$/;"	kind:member	line:14
+reactive_sequence.py	../robotics_project/scripts/behaviour_trees/reactive_sequence.py	1;"	kind:file	line:1
+registerFunction	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def registerFunction(self, name, func, registration_list=None):$/;"	kind:member	line:58
+reload_libraries	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def reload_libraries(force_kill, restore = False):$/;"	kind:function	line:18
+requires	../backward_ros/test_package/conanfile.py	/^    requires = 'cmake-utils\/0.0.0@Manu343726\/testing', 'backward\/1.3.0@Manu343726\/testing'$/;"	kind:variable	line:6
+requires	../ddynamic_reconfigure_python/setup.py	/^    requires=['rospy']$/;"	kind:variable	line:10
+requires	../pal_statistics/pal_statistics/setup.py	/^    requires=[]$/;"	kind:variable	line:9
+requires	../tf_lookup/setup.py	/^    requires=['actionlib', 'tf']$/;"	kind:variable	line:9
+resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      resources=['four'])$/;"	kind:variable	line:47
+resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      resources=['one', 'two', 'three'])$/;"	kind:variable	line:39
+resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      resources=['one', 'two'])$/;"	kind:variable	line:66
+resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      resources=['one'])$/;"	kind:variable	line:55
+resources	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^                      resources=['one']),$/;"	kind:variable	line:63
+resources	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^                      resources=['four'])$/;"	kind:variable	line:58
+resources	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^                      resources=['one', 'two', 'three'])$/;"	kind:variable	line:50
+resp	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^    resp = ListControllersResponse()$/;"	kind:variable	line:62
+restore_settings	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def restore_settings(self, plugin_settings, instance_settings):$/;"	kind:member	line:146
+restore_settings	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def restore_settings(self, plugin_settings, instance_settings):$/;"	kind:member	line:202
+rowCount	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def rowCount(self, parent):$/;"	kind:member	line:357
+rqt_controller_manager	../ros_control/rqt_controller_manager/scripts/rqt_controller_manager	1;"	kind:file	line:1
+rqt_joint_trajectory_controller	../ros_controllers/rqt_joint_trajectory_controller/scripts/rqt_joint_trajectory_controller	1;"	kind:file	line:1
+run_motion_python_node.py	../play_motion/play_motion/scripts/run_motion_python_node.py	1;"	kind:file	line:1
+sanitize_frame	../tf_lookup/src/tf_lookup/tf_common.py	/^def sanitize_frame(frame):$/;"	kind:function	line:2
+save_settings	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def save_settings(self, plugin_settings, instance_settings):$/;"	kind:member	line:143
+save_settings	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def save_settings(self, plugin_settings, instance_settings):$/;"	kind:member	line:198
+sdffile	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^		sdffile = f.read()$/;"	kind:variable	line:35
+send_close	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    def send_close(self, closing_amount):$/;"	kind:member	line:115
+setPose	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^  def setPose(self):$/;"	kind:member	line:113
+setPoseService	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^  def setPoseService(self,pose_msg):$/;"	kind:member	line:97
+setUp	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	/^    def setUp(self):$/;"	kind:member	line:13
+setUp	../pal_statistics/pal_statsd_collector/test/statsd_collector_test.py	/^    def setUp(self):$/;"	kind:member	line:13
+setValue	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def setValue(self, val):$/;"	kind:member	line:113
+setWrench	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	/^  def setWrench(self):$/;"	kind:member	line:61
+set_model_configuration_client	../gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/gazebo_interface.py	/^def set_model_configuration_client(model_name, model_param_name, joint_names, joint_positions, gazebo_namespace):$/;"	kind:function	line:38
+set_pose.py	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	1;"	kind:file	line:1
+set_wrench.py	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py	1;"	kind:file	line:1
+settings	../backward_ros/conanfile.py	/^    settings = 'os', 'compiler', 'build_type', 'arch'$/;"	kind:variable	line:5
+settings	../backward_ros/test_package/conanfile.py	/^    settings = 'os', 'compiler', 'build_type', 'arch'$/;"	kind:variable	line:5
+setup.py	../ddynamic_reconfigure_python/setup.py	1;"	kind:file	line:1
+setup.py	../gazebo_ros_pkgs/gazebo_plugins/setup.py	1;"	kind:file	line:1
+setup.py	../gazebo_ros_pkgs/gazebo_ros/setup.py	1;"	kind:file	line:1
+setup.py	../pal_statistics/pal_carbon_collector/setup.py	1;"	kind:file	line:1
+setup.py	../pal_statistics/pal_statistics/setup.py	1;"	kind:file	line:1
+setup.py	../pal_statistics/pal_statsd_collector/setup.py	1;"	kind:file	line:1
+setup.py	../play_motion/play_motion/setup.py	1;"	kind:file	line:1
+setup.py	../robotics_project/setup.py	1;"	kind:file	line:1
+setup.py	../ros_control/controller_manager/setup.py	1;"	kind:file	line:1
+setup.py	../ros_control/controller_manager_msgs/setup.py	1;"	kind:file	line:1
+setup.py	../ros_control/controller_manager_tests/setup.py	1;"	kind:file	line:1
+setup.py	../ros_control/rqt_controller_manager/setup.py	1;"	kind:file	line:1
+setup.py	../ros_controllers/rqt_joint_trajectory_controller/setup.py	1;"	kind:file	line:1
+setup.py	../tf_lookup/setup.py	1;"	kind:file	line:1
+setup_args	../ddynamic_reconfigure_python/setup.py	/^setup_args = generate_distutils_setup($/;"	kind:variable	line:7
+setup_args	../ros_control/controller_manager/setup.py	/^setup_args = generate_distutils_setup($/;"	kind:variable	line:7
+setup_args	../ros_control/controller_manager_msgs/setup.py	/^setup_args = generate_distutils_setup($/;"	kind:variable	line:7
+sg	../robotics_project/scripts/utils/grasps_server.py	/^    sg = SphericalGrasps()$/;"	kind:variable	line:421
+shortest_angular_distance	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^def shortest_angular_distance(angle_from, angle_to):$/;"	kind:function	line:73
+show_usage	../play_motion/play_motion/scripts/run_motion_python_node.py	/^def show_usage():$/;"	kind:function	line:30
+shutdown	../ros_control/controller_manager/scripts/spawner	/^def shutdown():$/;"	kind:function	line:55
+shutdown_cb	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^    def shutdown_cb(self):$/;"	kind:member	line:43
+shutdown_plugin	../ros_control/rqt_controller_manager/src/rqt_controller_manager/controller_manager.py	/^    def shutdown_plugin(self):$/;"	kind:member	line:138
+shutdown_plugin	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/joint_trajectory_controller.py	/^    def shutdown_plugin(self):$/;"	kind:member	line:190
+shutdown_timeout	../ros_control/controller_manager/scripts/spawner	/^shutdown_timeout = 30.0$/;"	kind:variable	line:53
+sm_students.py	../robotics_project/scripts/state_machines/sm_students.py	1;"	kind:file	line:1
+sort_by_height	../robotics_project/scripts/utils/grasps_server.py	/^def sort_by_height(sphere_poses):$/;"	kind:function	line:104
+spawn_model	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	1;"	kind:file	line:1
+spawn_model_prox	../robotics_project/scripts/utils/gazebo_models_hdl.py	/^		spawn_model_prox = rospy.ServiceProxy(self.spawn_model_srv, SpawnModel)$/;"	kind:variable	line:37
+spawn_sdf_model_client	../gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/gazebo_interface.py	/^def spawn_sdf_model_client(model_name, model_xml, robot_namespace, initial_pose, reference_frame, gazebo_namespace):$/;"	kind:function	line:14
+spawn_urdf_model_client	../gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/gazebo_interface.py	/^def spawn_urdf_model_client(model_name, model_xml, robot_namespace, initial_pose, reference_frame, gazebo_namespace):$/;"	kind:function	line:26
+spawner	../ros_control/controller_manager/scripts/spawner	1;"	kind:file	line:1
+sphere	../robotics_project/scripts/utils/manipulation_client.py	/^	sphere = SphericalService()$/;"	kind:variable	line:281
+start	../ddynamic_reconfigure_python/src/ddynamic_reconfigure_python/ddynamic_reconfigure.py	/^    def start(self, callback):$/;"	kind:member	line:79
+start_aruco_pick	../robotics_project/scripts/utils/manipulation_client.py	/^	def start_aruco_pick(self, req):$/;"	kind:member	line:69
+start_aruco_place	../robotics_project/scripts/utils/manipulation_client.py	/^	def start_aruco_place(self, req):$/;"	kind:member	line:76
+start_controller	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def start_controller(name):$/;"	kind:function	line:85
+start_controllers	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def start_controllers(names):$/;"	kind:function	line:88
+start_stop_controllers	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def start_stop_controllers(names, st):$/;"	kind:function	line:97
+stat_match	../pal_statistics/pal_statsd_collector/src/pal_statsd_collector/statsd_collector.py	/^    def stat_match(self, stat_name, stat_regex):$/;"	kind:member	line:20
+state	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              state='running',$/;"	kind:variable	line:34
+state	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              state='running',$/;"	kind:variable	line:42
+state	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              state='running',$/;"	kind:variable	line:58
+state	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              state='stopped',$/;"	kind:variable	line:50
+state	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^              state='running',$/;"	kind:variable	line:45
+state	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^              state='running',$/;"	kind:variable	line:53
+state_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/gripper_grasping.py	/^    def state_cb(self, data):$/;"	kind:member	line:78
+state_cb	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def state_cb(self, data):$/;"	kind:member	line:116
+state_msg	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def state_msg(self, ref_state, type_msg):$/;"	kind:member	line:174
+statistics_callback	../pal_statistics/pal_carbon_collector/src/pal_carbon_collector/carbon_collector.py	/^    def statistics_callback(self, msg):$/;"	kind:member	line:18
+statistics_callback	../pal_statistics/pal_statsd_collector/src/pal_statsd_collector/statsd_collector.py	/^    def statistics_callback(self, msg, stats_rules):$/;"	kind:member	line:24
+statistics_registry.py	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	1;"	kind:file	line:1
+statsd_collector	../pal_statistics/pal_statsd_collector/scripts/statsd_collector_node.py	/^    statsd_collector = StatsdCollector(topics)$/;"	kind:variable	line:16
+statsd_collector.py	../pal_statistics/pal_statsd_collector/src/pal_statsd_collector/statsd_collector.py	1;"	kind:file	line:1
+statsd_collector_node.py	../pal_statistics/pal_statsd_collector/scripts/statsd_collector_node.py	1;"	kind:file	line:1
+statsd_collector_test.py	../pal_statistics/pal_statsd_collector/test/statsd_collector_test.py	1;"	kind:file	line:1
+stop_controller	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def stop_controller(name):$/;"	kind:function	line:91
+stop_controllers	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def stop_controllers(names):$/;"	kind:function	line:94
+str	../dynamic_introspection/scripts/examples/bag_write.py	/^    str = String()$/;"	kind:variable	line:7
+strip_leading_slash	../robotics_project/scripts/utils/manipulation_client.py	/^   	def strip_leading_slash(self, s):$/;"	kind:function	line:148
+substitute_trajectory	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    def substitute_trajectory(self, trajectory):$/;"	kind:member	line:94
+suffix	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	/^  suffix = rospy.get_param("~suffix", None)$/;"	kind:variable	line:13
+suffix	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  suffix = rospy.get_param("~suffix", None)$/;"	kind:variable	line:15
+switch_controller	../ros_control/controller_manager/scripts/unspawner	/^switch_controller = rospy.ServiceProxy('controller_manager\/switch_controller', SwitchController)$/;"	kind:variable	line:43
+switch_controller_service	../ros_control/controller_manager/scripts/spawner	/^switch_controller_service = ""$/;"	kind:variable	line:50
+t_alt	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^t_alt    = gen.const("AlternateProjector", int_t, 5, "The camera alternates between frames with and without the projector.")$/;"	kind:variable	line:65
+t_ign	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^t_ign    = gen.const("IgnoreProjector",    int_t, 2, "The cameras frequency can be set independently of the projector frequency. There is no deterministic phase relation between projector firing and camera triggering.")$/;"	kind:variable	line:62
+t_int	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^t_int    = gen.const("InternalTrigger",    int_t, 1, "The camera does not use the trigger input.")$/;"	kind:variable	line:61
+t_noproj	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^t_noproj = gen.const("WithoutProjector",   int_t, 4, "The camera always exposes while the projector is off.")$/;"	kind:variable	line:64
+t_proj	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^t_proj   = gen.const("WithProjector",      int_t, 3, "The camera always exposes while the projector is on.")$/;"	kind:variable	line:63
+test	../backward_ros/test_package/conanfile.py	/^    def test(self):$/;"	kind:member	line:14
+test_basic	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def test_basic(self):$/;"	kind:member	line:45
+test_bumper	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	/^    def test_bumper(self):$/;"	kind:member	line:94
+test_bumper.py	../gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py	1;"	kind:file	line:1
+test_controller_lister	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^    def test_controller_lister(self):$/;"	kind:member	line:107
+test_controller_manager_lister	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^    def test_controller_manager_lister(self):$/;"	kind:member	line:95
+test_get_controller_managers	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^    def test_get_controller_managers(self):$/;"	kind:member	line:62
+test_inside_range	../gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py	/^  def test_inside_range(self):$/;"	kind:member	line:13
+test_is_controller_manager	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^    def test_is_controller_manager(self):$/;"	kind:member	line:54
+test_link_pose	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^    def test_link_pose(self):$/;"	kind:member	line:144
+test_link_pose.py	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	1;"	kind:file	line:1
+test_max_range	../gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py	/^  def test_max_range(self):$/;"	kind:member	line:9
+test_pal_statistics.py	../pal_statistics/pal_statistics/test/test_pal_statistics.py	1;"	kind:file	line:1
+test_publish	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def test_publish(self):$/;"	kind:member	line:76
+test_range.py	../gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py	1;"	kind:file	line:1
+test_registration_list	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def test_registration_list(self):$/;"	kind:member	line:65
+test_rosparam_controller_names	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^    def test_rosparam_controller_names(self):$/;"	kind:member	line:121
+test_stat_match	../pal_statistics/pal_statsd_collector/test/statsd_collector_test.py	/^    def test_stat_match(self):$/;"	kind:member	line:22
+test_statistics_1	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	/^    def test_statistics_1(self):$/;"	kind:member	line:17
+test_statistics_2	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	/^    def test_statistics_2(self):$/;"	kind:member	line:23
+test_statistics_3	../pal_statistics/pal_carbon_collector/test/carbon_collector_test.py	/^    def test_statistics_3(self):$/;"	kind:member	line:39
+test_statistics_callback	../pal_statistics/pal_statsd_collector/test/statsd_collector_test.py	/^    def test_statistics_callback(self):$/;"	kind:member	line:37
+tf_common.py	../tf_lookup/src/tf_lookup/tf_common.py	1;"	kind:file	line:1
+tf_lookup_client.py	../tf_lookup/src/tf_lookup/tf_lookup_client.py	1;"	kind:file	line:1
+tf_stream_client.py	../tf_lookup/src/tf_lookup/tf_stream_client.py	1;"	kind:file	line:1
+tick	../robotics_project/scripts/behaviour_trees/reactive_sequence.py	/^    def tick(self):$/;"	kind:member	line:15
+topic_introspection_bag_read_multiplot.py	../dynamic_introspection/scripts/topic_introspection_bag_read_multiplot.py	1;"	kind:file	line:1
+topics	../pal_statistics/pal_carbon_collector/scripts/carbon_collector_node.py	/^    topics = rospy.get_param('~topics')$/;"	kind:variable	line:16
+topics	../pal_statistics/pal_statsd_collector/scripts/statsd_collector_node.py	/^    topics = rospy.get_param('~topics')$/;"	kind:variable	line:14
+trajectory	../pal_gripper/pal_gripper_controller_configuration/scripts/home_gripper.py	/^  trajectory = JointTrajectory()$/;"	kind:variable	line:25
+trajectory	../pal_gripper/pal_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  trajectory = JointTrajectory()$/;"	kind:variable	line:21
+trajectory	../pal_wsg_gripper/pal_wsg_gripper_controller_configuration_gazebo/scripts/home_gripper.py	/^  trajectory = JointTrajectory()$/;"	kind:variable	line:29
+trajectory	../tiago_simulation/tiago_controller_configuration_gazebo/scripts/home_gripper.py	/^  trajectory = JointTrajectory()$/;"	kind:variable	line:21
+tuckarm	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^class tuckarm(pt.behaviour.Behaviour):$/;"	kind:class	line:73
+type	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              type='bar_base\/bar',$/;"	kind:variable	line:43
+type	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              type='foo_base\/foo',$/;"	kind:variable	line:35
+type	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              type='foobar_base\/foobar',$/;"	kind:variable	line:51
+type	../ros_control/controller_manager_tests/test/cm_msgs_utils_test.py	/^              type='foobaz_base\/foobaz',$/;"	kind:variable	line:59
+type	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^              type='bar_base\/bar',$/;"	kind:variable	line:54
+type	../ros_control/controller_manager_tests/test/multi_cm_dummy.py	/^              type='foo_base\/foo',$/;"	kind:variable	line:46
+unload_controller	../ros_control/controller_manager/src/controller_manager/controller_manager_interface.py	/^def unload_controller(name):$/;"	kind:function	line:74
+unload_controller_service	../ros_control/controller_manager/scripts/spawner	/^unload_controller_service = ""$/;"	kind:variable	line:51
+unload_motion	../play_motion/play_motion/src/play_motion/move_joint.py	/^def unload_motion(motion_namespace, motion_name):$/;"	kind:function	line:90
+unregister	../pal_statistics/pal_statistics/src/pal_statistics/statistics_registry.py	/^    def unregister(self, name):$/;"	kind:member	line:77
+unspawner	../ros_control/controller_manager/scripts/unspawner	1;"	kind:file	line:1
+update	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:100
+update	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:158
+update	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:30
+update	../robotics_project/scripts/behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:63
+update	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def update(self):$/;"	kind:member	line:112
+update	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def update(self):$/;"	kind:member	line:186
+update	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def update(self):$/;"	kind:member	line:253
+update	../robotics_project/scripts/behaviour_trees/bt_students.py	/^    def update(self):$/;"	kind:member	line:52
+update_combo	../ros_control/rqt_controller_manager/src/rqt_controller_manager/update_combo.py	/^def update_combo(combo, new_vals):$/;"	kind:function	line:28
+update_combo	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/update_combo.py	/^def update_combo(combo, new_vals):$/;"	kind:function	line:28
+update_combo.py	../ros_control/rqt_controller_manager/src/rqt_controller_manager/update_combo.py	1;"	kind:file	line:1
+update_combo.py	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/update_combo.py	1;"	kind:file	line:1
+url	../backward_ros/conanfile.py	/^    url = 'https:\/\/github.com\/bombela\/backward-cpp'$/;"	kind:variable	line:7
+usage	../gazebo_ros_pkgs/gazebo_plugins/scripts/gazebo_model	/^def usage():$/;"	kind:function	line:17
+usage	../gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model	/^def usage():$/;"	kind:function	line:42
+utils.py	../ros_control/controller_manager_msgs/src/controller_manager_msgs/utils.py	1;"	kind:file	line:1
+validP3dInput	../gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py	/^    def validP3dInput(self, p3d):$/;"	kind:member	line:127
+valid_cm	../ros_control/controller_manager_tests/test/cm_msgs_utils_rostest.py	/^valid_cm = [$/;"	kind:variable	line:32
+value	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    def value(self):$/;"	kind:member	line:120
+valueChanged	../ros_controllers/rqt_joint_trajectory_controller/src/rqt_joint_trajectory_controller/double_editor.py	/^    valueChanged = Signal(float)$/;"	kind:variable	line:59
+values_msg_cb	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def values_msg_cb(self, msg):$/;"	kind:member	line:23
+version	../backward_ros/conanfile.py	/^    version = '1.3.0'$/;"	kind:variable	line:9
+waitTopicInput	../gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py	/^  def waitTopicInput(self,p3d):$/;"	kind:member	line:107
+wait_for_clock	../play_motion/play_motion/src/play_motion/move_joint.py	/^def wait_for_clock():$/;"	kind:function	line:71
+wait_for_msg	../pal_statistics/pal_statistics/test/test_pal_statistics.py	/^    def wait_for_msg(self, timeout=2.0):$/;"	kind:member	line:121
+wait_for_planning_scene_object	../robotics_project/scripts/utils/manipulation_server.py	/^	def wait_for_planning_scene_object(self, object_name='part'):$/;"	kind:member	line:169
+wait_for_topic_cb	../ros_control/controller_manager/scripts/spawner	/^        def wait_for_topic_cb(msg):$/;"	kind:function	line:149
+wait_for_valid_time	../play_motion/play_motion/scripts/run_motion_python_node.py	/^def wait_for_valid_time(timeout):$/;"	kind:function	line:49
+wfjta	../pal_gripper/pal_parallel_gripper_wrapper/scripts/parallel_gripper_fake.py	/^    wfjta = WrappedFJTA()$/;"	kind:variable	line:207
+wide_trig_mode_enum	../gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg	/^wide_trig_mode_enum    = gen.enum([ t_ign, t_proj, t_noproj ], "The triggering mode for the wide camera.")$/;"	kind:variable	line:66

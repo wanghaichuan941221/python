@@ -1,0 +1,97 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BehaviourTree	../behaviour_trees/bt_students.py	/^class BehaviourTree(ptr.trees.BehaviourTree):$/;"	kind:class	line:7
+ManipulateAruco	../utils/manipulation_client.py	/^class ManipulateAruco(object):$/;"	kind:class	line:106
+ModelsHandler	../utils/gazebo_models_hdl.py	/^class ModelsHandler(object):$/;"	kind:class	line:11
+NavPosesPublisher	../utils/poses_pub.py	/^class NavPosesPublisher(object):$/;"	kind:class	line:6
+PickAndPlaceServer	../utils/manipulation_server.py	/^class PickAndPlaceServer(object):$/;"	kind:class	line:90
+RSequence	../behaviour_trees/reactive_sequence.py	/^class RSequence(pt.composites.Selector):$/;"	kind:class	line:6
+SphericalGrasps	../utils/grasps_server.py	/^class SphericalGrasps(object):$/;"	kind:class	line:112
+SphericalService	../utils/manipulation_client.py	/^class SphericalService(object):$/;"	kind:class	line:51
+StateMachine	../state_machines/sm_students.py	/^class StateMachine(object):$/;"	kind:class	line:30
+__init__	../behaviour_trees/behaviours_student.py	/^    def __init__(self):$/;"	kind:member	line:81
+__init__	../behaviour_trees/behaviours_student.py	/^    def __init__(self, direction):$/;"	kind:member	line:139
+__init__	../behaviour_trees/behaviours_student.py	/^    def __init__(self, n, name):$/;"	kind:member	line:19
+__init__	../behaviour_trees/behaviours_student.py	/^    def __init__(self, name, linear, angular):$/;"	kind:member	line:45
+__init__	../behaviour_trees/bt_students.py	/^	def __init__(self):$/;"	kind:member	line:9
+__init__	../behaviour_trees/reactive_sequence.py	/^    def __init__(self, name="Sequence", children=None):$/;"	kind:member	line:12
+__init__	../state_machines/sm_students.py	/^    def __init__(self):$/;"	kind:member	line:31
+__init__	../utils/gazebo_models_hdl.py	/^    def __init__(self):$/;"	kind:member	line:12
+__init__	../utils/grasps_server.py	/^    def __init__(self):$/;"	kind:member	line:113
+__init__	../utils/manipulation_client.py	/^	def __init__(self):$/;"	kind:member	line:107
+__init__	../utils/manipulation_client.py	/^	def __init__(self):$/;"	kind:member	line:52
+__init__	../utils/manipulation_server.py	/^	def __init__(self):$/;"	kind:member	line:91
+__init__	../utils/poses_pub.py	/^    def __init__(self):$/;"	kind:member	line:7
+aruco_pose_cb	../utils/manipulation_client.py	/^	def aruco_pose_cb(self, aruco_pose_msg):$/;"	kind:member	line:271
+behaviours_student.py	../behaviour_trees/behaviours_student.py	1;"	kind:file	line:1
+bt_students.py	../behaviour_trees/bt_students.py	1;"	kind:file	line:1
+check_states	../state_machines/sm_students.py	/^    def check_states(self):$/;"	kind:member	line:86
+code	../state_machines/sm_students.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	kind:variable	line:25
+code	../utils/manipulation_client.py	/^		code = MoveItErrorCodes.__dict__[name]$/;"	kind:variable	line:48
+code	../utils/manipulation_server.py	/^		code = MoveItErrorCodes.__dict__[name]$/;"	kind:variable	line:43
+counter	../behaviour_trees/behaviours_student.py	/^class counter(pt.behaviour.Behaviour):$/;"	kind:class	line:13
+createGripperTranslation	../utils/grasps_server.py	/^    def createGripperTranslation(self, direction_vector,$/;"	kind:member	line:400
+createPickupGoal	../utils/manipulation_server.py	/^def createPickupGoal(group="arm_torso", target="part",$/;"	kind:function	line:47
+createPlaceGoal	../utils/manipulation_server.py	/^def createPlaceGoal(place_pose,$/;"	kind:function	line:69
+create_grasp	../utils/grasps_server.py	/^    def create_grasp(self, pose, grasp_id):$/;"	kind:member	line:277
+create_grasps_from_object_pose	../utils/grasps_server.py	/^    def create_grasps_from_object_pose(self, object_pose):$/;"	kind:member	line:349
+create_grasps_from_poses	../utils/grasps_server.py	/^    def create_grasps_from_poses(self, sphere_poses):$/;"	kind:member	line:265
+create_placings_from_object_pose	../utils/grasps_server.py	/^    def create_placings_from_object_pose(self, posestamped):$/;"	kind:member	line:368
+delete_cube	../utils/gazebo_models_hdl.py	/^			delete_cube = DeleteModelRequest('aruco_cube')$/;"	kind:variable	line:47
+delete_model_res	../utils/gazebo_models_hdl.py	/^			delete_model_res = self.delete_model_srv(delete_cube)$/;"	kind:variable	line:48
+delete_model_res	../utils/gazebo_models_hdl.py	/^			delete_model_res = self.delete_model_srv(delete_robot)$/;"	kind:variable	line:55
+delete_robot	../utils/gazebo_models_hdl.py	/^			delete_robot = DeleteModelRequest('tiago_steel')$/;"	kind:variable	line:54
+dyn_rec_callback	../utils/grasps_server.py	/^    def dyn_rec_callback(self, config, level):$/;"	kind:member	line:130
+f	../utils/gazebo_models_hdl.py	/^		f = open(self.aruco_cube,'r')$/;"	kind:variable	line:34
+filter_poses	../utils/grasps_server.py	/^def filter_poses(sphere_poses, object_pose,$/;"	kind:function	line:80
+gazebo_models_hdl.py	../utils/gazebo_models_hdl.py	1;"	kind:file	line:1
+generate_grasp_poses	../utils/grasps_server.py	/^    def generate_grasp_poses(self, object_pose):$/;"	kind:member	line:174
+go	../behaviour_trees/behaviours_student.py	/^class go(pt.behaviour.Behaviour):$/;"	kind:class	line:39
+grasp_object	../utils/manipulation_server.py	/^	def grasp_object(self, object_pose):$/;"	kind:member	line:189
+grasps_server.py	../utils/grasps_server.py	1;"	kind:file	line:1
+initial_pose	../utils/gazebo_models_hdl.py	/^		initial_pose = Pose()$/;"	kind:variable	line:29
+manipulation_client.py	../utils/manipulation_client.py	1;"	kind:file	line:1
+manipulation_server.py	../utils/manipulation_server.py	1;"	kind:file	line:1
+move_head	../utils/manipulation_client.py	/^	def move_head(self, req):$/;"	kind:member	line:83
+move_torso	../utils/manipulation_client.py	/^        def move_torso(self, string_operation):$/;"	kind:function	line:234
+movehead	../behaviour_trees/behaviours_student.py	/^class movehead(pt.behaviour.Behaviour):$/;"	kind:class	line:131
+moveit_error_dict	../state_machines/sm_students.py	/^moveit_error_dict = {}$/;"	kind:variable	line:22
+moveit_error_dict	../utils/manipulation_client.py	/^moveit_error_dict = {}$/;"	kind:variable	line:45
+moveit_error_dict	../utils/manipulation_server.py	/^moveit_error_dict = {}$/;"	kind:variable	line:40
+normalize	../utils/grasps_server.py	/^def normalize(v):$/;"	kind:function	line:47
+paps	../utils/manipulation_server.py	/^	paps = PickAndPlaceServer()$/;"	kind:variable	line:274
+pick_and_place_aruco	../utils/manipulation_client.py	/^	def pick_and_place_aruco(self, string_operation):$/;"	kind:member	line:153
+pick_cb	../utils/manipulation_server.py	/^	def pick_cb(self, goal):$/;"	kind:member	line:145
+place_cb	../utils/manipulation_server.py	/^	def place_cb(self, goal):$/;"	kind:member	line:157
+place_object	../utils/manipulation_server.py	/^	def place_object(self, object_pose):$/;"	kind:member	line:235
+poses_pub.py	../utils/poses_pub.py	1;"	kind:file	line:1
+poses_publisher	../utils/poses_pub.py	/^    def poses_publisher(self):$/;"	kind:member	line:21
+prepare_robot_nav	../utils/manipulation_client.py	/^	def prepare_robot_nav(self):$/;"	kind:member	line:259
+prepare_robot_pandp	../utils/manipulation_client.py	/^	def prepare_robot_pandp(self):$/;"	kind:member	line:250
+ps	../utils/grasps_server.py	/^    ps = PoseStamped()$/;"	kind:variable	line:425
+publish_grasps	../utils/grasps_server.py	/^    def publish_grasps(self, grasps):$/;"	kind:member	line:234
+publish_object_marker	../utils/grasps_server.py	/^    def publish_object_marker(self, object_pose, width=0.03):$/;"	kind:member	line:250
+publish_poses	../utils/grasps_server.py	/^    def publish_poses(self, sphere_poses):$/;"	kind:member	line:242
+quaternion_from_vectors	../utils/grasps_server.py	/^def quaternion_from_vectors(v0, v1):$/;"	kind:function	line:55
+reactive_sequence.py	../behaviour_trees/reactive_sequence.py	1;"	kind:file	line:1
+sdffile	../utils/gazebo_models_hdl.py	/^		sdffile = f.read()$/;"	kind:variable	line:35
+sg	../utils/grasps_server.py	/^    sg = SphericalGrasps()$/;"	kind:variable	line:421
+shutdown_cb	../utils/gazebo_models_hdl.py	/^    def shutdown_cb(self):$/;"	kind:member	line:43
+sm_students.py	../state_machines/sm_students.py	1;"	kind:file	line:1
+sort_by_height	../utils/grasps_server.py	/^def sort_by_height(sphere_poses):$/;"	kind:function	line:104
+spawn_model_prox	../utils/gazebo_models_hdl.py	/^		spawn_model_prox = rospy.ServiceProxy(self.spawn_model_srv, SpawnModel)$/;"	kind:variable	line:37
+sphere	../utils/manipulation_client.py	/^	sphere = SphericalService()$/;"	kind:variable	line:279
+start_aruco_pick	../utils/manipulation_client.py	/^	def start_aruco_pick(self, req):$/;"	kind:member	line:69
+start_aruco_place	../utils/manipulation_client.py	/^	def start_aruco_place(self, req):$/;"	kind:member	line:76
+strip_leading_slash	../utils/manipulation_client.py	/^   	def strip_leading_slash(self, s):$/;"	kind:function	line:150
+tick	../behaviour_trees/reactive_sequence.py	/^    def tick(self):$/;"	kind:member	line:15
+tuckarm	../behaviour_trees/behaviours_student.py	/^class tuckarm(pt.behaviour.Behaviour):$/;"	kind:class	line:73
+update	../behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:100
+update	../behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:158
+update	../behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:30
+update	../behaviour_trees/behaviours_student.py	/^    def update(self):$/;"	kind:member	line:63
+wait_for_planning_scene_object	../utils/manipulation_server.py	/^	def wait_for_planning_scene_object(self, object_name='part'):$/;"	kind:member	line:169
